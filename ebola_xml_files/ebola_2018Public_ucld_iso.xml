@@ -449,7 +449,7 @@
 	<!-- throughout the time spanned by the genealogy.                           -->
 	<exponentialGrowth id="exponential" units="years">
 		<populationSize>
-			<parameter id="exponential.popSize" value="0.25" lower="0.0"/>
+			<parameter id="exponential.popSize" value="1.0" lower="0.0"/>
 		</populationSize>
 		<growthRate>
 			<parameter id="exponential.growthRate" value="0.0"/>
@@ -482,11 +482,6 @@
 	<treeLengthStatistic id="treeLength">
 		<treeModel idref="treeModel"/>
 	</treeLengthStatistic>
-
-	<!-- Statistic for time of most recent common ancestor of tree               -->
-	<tmrcaStatistic id="age(root)" absolute="true">
-		<treeModel idref="treeModel"/>
-	</tmrcaStatistic>
 	
 
 	<!-- Generate a coalescent likelihood                                        -->
@@ -664,8 +659,8 @@
 			<column label="Likelihood" dp="4" width="12">
 				<likelihood idref="likelihood"/>
 			</column>
-			<column label="age(root)" sf="6" width="12">
-				<tmrcaStatistic idref="age(root)"/>
+			<column label="rootHeight" sf="6" width="12">
+				<parameter idref="treeModel.rootHeight"/>
 			</column>
 		</log>
 
@@ -675,7 +670,6 @@
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
 			<parameter idref="treeModel.rootHeight"/>
-			<tmrcaStatistic idref="age(root)"/>
 			<treeLengthStatistic idref="treeLength"/>
 			<parameter idref="exponential.popSize"/>
 			<parameter idref="exponential.growthRate"/>
@@ -713,6 +707,9 @@
 	
 
 	<!-- START Marginal Likelihood Estimator                                     -->
+	<productOfExponentialsPosteriorMeansLoess id="exponentials" fileName="ebola_2018Public_ucld_iso.log" burnin="1000000" parameterColumn="coalescentEventsStatistic" dimension="82">
+		<treeModel idref="treeModel"/>
+	</productOfExponentialsPosteriorMeansLoess>
 
 	<!-- Define marginal likelihood estimator (GSS) settings                     -->
 	<marginalLikelihoodEstimator chainLength="1000000" pathSteps="100" pathScheme="betaquantile" alpha="0.3">
@@ -725,26 +722,26 @@
 			</source>
 			<destination>
 				<workingPrior>
-					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="kappa" burnin="2000000">
+					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="kappa" burnin="1000000">
 						<parameter idref="kappa"/>
 					</logTransformedNormalReferencePrior>
-					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="alpha" burnin="2000000">
+					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="alpha" burnin="1000000">
 						<parameter idref="alpha"/>
 					</logTransformedNormalReferencePrior>
 					<discretizedBranchRates idref="branchRates"/>
-					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="ucld.mean" burnin="2000000">
+					<!--logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="ucld.mean" burnin="1000000">
 						<parameter idref="ucld.mean"/>
-					</logTransformedNormalReferencePrior>
-					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="ucld.stdev" burnin="2000000">
+					</logTransformedNormalReferencePrior-->
+					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="ucld.stdev" burnin="1000000">
 						<parameter idref="ucld.stdev"/>
 					</logTransformedNormalReferencePrior>
-					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="exponential.popSize" burnin="2000000">
+					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="exponential.popSize" burnin="1000000">
 						<parameter idref="exponential.popSize"/>
 					</logTransformedNormalReferencePrior>
-					<normalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="exponential.growthRate" burnin="2000000">
+					<normalReferencePrior fileName="ebola_2018Public_ucld_iso.log" parameterColumn="exponential.growthRate" burnin="1000000">
 						<parameter idref="exponential.growthRate"/>
 					</normalReferencePrior>
-					<yuleModel idref="yuleReference"/>
+					<productOfExponentialsPosteriorMeansLoess idref="exponentials"/>
 				</workingPrior>
 			</destination>
 		</pathLikelihood>
