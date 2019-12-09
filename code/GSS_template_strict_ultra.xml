@@ -192,7 +192,7 @@
 				<!--uniformPrior lower="0.0" upper="0.5">
 					<parameter idref="clock.rate"/>
 				</uniformPrior-->
-				<exponentialPrior mean="100">
+				<exponentialPrior mean="1e5">
 					<parameter idref="exponential.popSize"/>
 				</exponentialPrior>
 				<laplacePrior mean="0.0" scale="1.0">
@@ -250,13 +250,13 @@
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<!--logTree id="treeFileLog" logEvery="5000" nexusFormat="true" fileName="OUT_FILE.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="5000" nexusFormat="true" fileName="OUT_FILE.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<strictClockBranchRates idref="branchRates"/>
 			</trait>
 			<joint idref="joint"/>
-		</logTree-->
+		</logTree>
 	</mcmc>
 	
 
