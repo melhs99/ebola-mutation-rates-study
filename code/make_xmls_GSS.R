@@ -5,7 +5,7 @@ make_xml <- function(dna_data, template, outname, randomise.dates = F, ultra = F
   if(ultra){
     taxon_block <- paste0(paste0('<taxon id=\"', rownames(dna_data), '\">\n</taxon>'), collapse = '\n')
   }else{		
-    dates <- gsub('.+_', '', rownames(dna_data))
+    dates <- gsub('.+@', '', rownames(dna_data))
     if(randomise.dates) dates <- sample(dates)
     taxon_block <- paste0(paste0('<taxon id=\"', rownames(dna_data), '\">\n<date value=\"', dates, '\" direction=\"forwards\" units=\"years\"/>\n</taxon>'),
   	      	 		       collapse = '\n')
