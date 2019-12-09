@@ -12,10 +12,7 @@
 	<!-- The list of taxa to be analysed (can also include dates/ages).          -->
 	<!-- ntax=50                                                                 -->
 	<taxa id="taxa">
-		<!--taxon id="A/New_York/3629/2009|USA_/_New_York_state_/_Suffolk_County|144|2009.395">
-			<date value="2009.395" direction="forwards" units="years"/>
-			</taxon-->
-		<taxon id="MK163675|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_BEN294|Democratic_Republic_of_the_Congo|2018_09_05@2018.70596889449">
+	  <taxon id="MK163675|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_BEN294|Democratic_Republic_of_the_Congo|2018_09_05@2018.70596889449">
 <date value="05@2018.70596889449" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MK163674|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_BEN292|Democratic_Republic_of_the_Congo|2018_09_04@2018.70323665406">
@@ -271,11 +268,7 @@
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
 	<!-- ntax=50 nchar=13154                                                     -->
 	<alignment id="alignment" dataType="nucleotide">
-		<!--sequence>
-			<taxon idref="A/New_York/3629/2009|USA_/_New_York_state_/_Suffolk_County|144|2009.395"/>
-			ATGGAGAGAATAAAAGAACTGAGAGAT
-		</sequence-->
-		<sequence>
+	  <sequence>
 <taxon idref="MK163675|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_BEN294|Democratic_Republic_of_the_Congo|2018_09_05@2018.70596889449"/>
 g--------------------------------------------cgaataactatgaggaagattaataattttcctctcattgaaatttatatcggaatttaaattgaaattgttactgtaatcacacctggtttgtttcagagccacatcacaaagatagagaacaacctaggtctccgaagggagcaagggcatcagtgtgctcagttgagaatcccttgtcaacatctaggtcttatcacaccacaagttccacctcagactctgcagggtgatccaacaaccttaatagaaacattattgttaaaggacagcattagttcacagtcaaacaagtaagattgagaattaaccttggttttgaacttgaacacttagaggattggagattcaacaaccctaaagcttggggtaaaacattggaaatagttaaaagacaaatagctcggaatcacaaaattccgagtatggattctcgtcctcagaaagtttggatgacgccgaatctcactgaatctgacatggattaccacaagatcttgacggcaggtctgtctgttcaacaggggattgttcggcaaagagtcatcccagtgtatcaagtcaacaatcttgaggaaatttgccaacttatcatacaggcctttgaagcaggtgttgattttcaagagagtgcggacagtttccttctcatgctttgtcttcatcatgcgtaccagggagattacaaacttttcttggaaagtggtgcagtcaagtatttggaagggcatgggttccgttttgaagtcaagaagcgtgatggagtgaagcgccttgaggaattgctgccagcagtatctagtggaaaaaacattaagagaacacttgctgccatgccggaagaggagacaactgaagctaatgccggtcagtttctctcctttgccagtctattccttccgaaattggtagtaggagaaaaggcttgtcttgagaaggttcaaaggcaaattcaagtacatgcagagcaaggactgatacaatatccaacagcttggcaatcagtaggacacatgatggtgatttttcgtttgatgcgaacaaattttctgatcaaatttctcctaatacaccaagggatgcacatggttgccgggcatgatgccaacgatgctgtgatttcaaattcagtggctcaagctcgtttttcaggtttattgattgtcaaaacagtacttgatcatatcctacaaaagacagaacgaggagttcgtctccatcctcttgcaaggaccgccaaggtaaaaaatgaggtgaactcctttaaggctgcactcagctccctggccaagcatggagagtatgctccttttgcccgacttttgaacctttctggagtaaataatcttgagcatggtcttttccctcaactatcggcaattgcactcggagtcgccacagcacacgggagtaccctcgcaggagtaaatgttggagaacagtatcaacaactcagagaggctgccactgaggctgagaaacaactccaacaatatgcagagtctcgcgaacttgaccatcttggacttgatgatcaggaaaagaaaattcttatgaacttccatcagaaaaagaacgaaatcagcttccagcaaacaaacgctatggtaactctaagaaaagagcgcctggccaagctgacagaagctatcactgctgcgtcactgcccaaaacaagtggacattacgatgatgatgacgacattccttttccaggacccatcaatgatgacgacaatcctggccatcaagatgatgatccgactgactcacaggatacgaccattcccgatgtagtgattgatcccgatgatggaagttacggcgaataccagagttattcggaaaacggcatgagtgcaccagatgatttggtcctatttgatctagacgaggacgacgaggacactaagccagtgcctaatagatcaatcaagggtggacaacagaaaaacagtcaaaagggccagcatacagagggcagacaggcacaatccaggccaactcaaaatgtcccaggccctcacagaacaatccaccacgacagtgctccactcacggaccataacagaagaaatgaaccctccggctcaaccagccctcgcatgctgacaccaattaacgaagaggcggacccactggacgatgccgacgacgagacgtctagccttccgcccttggagtcagatgatgaagaacaggacagggacggaacttccaaccgcacacccactgtcgccccaccggcccccgtatacagagatcactctgaaaagaaagaactcccgcaggatgagcaacaagatcaagaccacactcaagaggccaggaaccaggacagtgacaacacccagccagaacactcttttgaggagatgtatcgccacattttaagatcacaggggccatttgatgctgttttgtattatcatatgatgaaggatgagcctgtagttttcagtaccagtgatggcaaagagtacacgtatccagactcccttgaagaggaatatccaccatggctcactgaaaaagaggctatgaatgaagagaatagatttgttacattggatggtcaacaattttattggccggtaatgaatcacaagaataaattcatggcaatcctgcaacatcatcagtgaatgagcatggaacaatgggatgattcaaccgacaaatagctaacattaagtagtcaaggaacgaaaacaggaagaattcttgatgtctaaggtgtgaattattatcacaataaaagtgattcttatttttgaatttaaagctagcttattattactagctgtttttcaaagttcaatttgagtcttaatgcaaataggcgttaagccacagttgtagccataattgtaactcaatatcttaactagcgatttgtctaaattaaattacattatgcttttataacttacctactagcctgcccaacatttacacgatcgttttataattaagaaaaaactaacgatgaagattaaaaccttcatcatccttacgtcaattgaattctctagcactcgaagcttattgtcttcaatgtaaaagaaaagctggtctaacaagatgacaactagaacaaagggcaggggccatactgcggtcacgactcaaaacgacagaatgccaggccctgagctttcgggctggatctctgagcagctaatgaccggaagaattcctgtaagcgacatcttctgtgatattgagaacaatccaggattatgccacgtatcccaaatgcagcaaacgaagccaaacccgaagacgcgcaacagtcaaacccaaacggacccaatgtgcaatcatagttttgaggaggtagtacaaacattggcttcattggctactgttgtgcaacaacaaaccatcgcatcagaatcattagagcaacgcattacgagtcttgagaatggtctaaagccagtttatgatatggcaaaaacaatctcctcattgaacagggtttgtgctgagatggttgcaaaatatgatcttctggtgatgacaaccggtcgggcaacagcaaccgctgcagcaactgaggcttattgggccgaacatggtcaaccaccacctggaccatcactttatgaagaaagtacgattcggggtaagattgaatctagagatgagaccgtccctcaaagtgttagggaggcattcaacaatctagacagtaccacttcactaactgaggaaaattttgggaaacctgacatttcggcaaaggatctgagaaacattatgtatgatcacttgcctggttttggaactgctttccaccaattagtacaagtgatttgtaaattgggaaaagatagcaactcattggacatcattcatgctgagttccaggccagcctggctgaaggagactctccgcaatgtgccctaattcaaattacgaaaagagttccaatcttccaagatgctgctccacctgtcatccacatccgctctcgaggtgacattccccgagcttgtcagaaaagcttgcgtccagtcccaccatcgcccaagattgatcgaggttgggtatgtgtttttcagcttcaagatggtaaaacacttggactcaaaatttgagccaatctcccttccctccgaaagaggcgactaatagcagaggcttcaactgctgaactataggatatgttacattaatgatacacttgtgagtatcagccctggataatataagtcaattaaacgactaagataaaattgttcatatctcgctagcagcttaaaatataaatgtaataggagctatatctctgacagtattacaaatgattgttattaggtaacccaaaccaaaagtgatgaagattaagaaaaacctacctcgactgagagagtgttttttcattaaccttcatcttgtaaacgttgagcaaaattgttaaaaatatgaggcgggttatattgcctactgctcctcctgaatatatggaggccatataccctgtcaggtcaaattcaacaattgctagaggtggcaacagtaatacaggcttcctgacaccagagtcagtcaatggggacactccatcgaatccactcaggccaattgccgatgacaccatcgaccatgccagccacacaccaggcagtgtgtcatcagcattcatccttgaagctatggtgaatgtcatatcgggccccaaagtgctaatgaagcaaattccaatttggcttcctctaggtgtcgctgatcaaaagacctacagctttgactcaactacggccgccatcatgcttgcttcatatactatcacccatttcggcaaggcaaccaatccacttgtcagagtcaatcggctgggtcccggaatcccggatcaccccctcaggctcctgcgaattggaaaccaggctttcctccaggagttcgttcttccgccagtccaactaccccagtatttcacctttgatttgacagcactcaaactgatcacccaaccactgcctgctgcaacatggaccgatgacactccaacaggatcaaatggagcattgcgtccaggaatttcatttcatccaaaacttcgccccattcttttgcccaacaaaagtgggaagaaggggaacagtgccgatctaacatctccagagaaaatccaagcaataatgacttcactccaggactttaaaatcgttccaattgatccagccaaaaatatcatgggaatcgaagtgccagaaactctggtccacaagctgactggtaagaaggtgaattctaaaaatggacaaccaatcatccctgttcttttgccaaagtacattgggttggacccggtggctccaggagacctcaccatggtaatcacacaggattgtgacacgtgtcattctcctgcaagtcttccagctgtgattgagaagtaattgcaataattgactcagatccagttttacagaatcttctcagggatagtgacaacatctatttagtaatccgtccattagcggagatacttttaattgatcaatatactaaaggtgctttacaccattgtctttttcctctcctaaatgtagaacttaacaaaagactcataatatacttgttttaaacagattgattgatgaaagatcataactaataacattacaaataatcctactataatcaatacggtgattcaaatgttaatctttctcattgcacatactctttgcccttatcctcaaactgcctgcatgcttacatctgaggatagccagtgtgacttggattggagatgtggagaaaaaatcgggacccatttctaggttgttcacaatccaagtacagacattgcccttctaattaagaaaaaatcggcgatgaagattaagccgacagtgagcgtaatcttcatctctcttagattatttgttttccagagtaggggtcgtcaggtccttttcaatcgtataaccaagataaacttcactagaaggatattgtggggcaacaacacaatgggtgctacaggaatattacagttacctcgtgatcgattcaagaggacatcattctttctttgggtaattatccttttccaaagaacattttccatcccacttggagtcatccacaatagcacattacaggttagtgatgtcgacaaactagtttgtcgtgacaaactgtcatccacaaatcaattgagatcagttggactgaatctcgaagggaatggagtggcaactgacgtgccatctgcaactaaaagatggggcttcaggtccggtgtcccaccaaaggtggtcaattatgaagctggtgaatgggctgaaaactgctacaatcttgaaatcaaaaaacctgacgggagtgagtgtctaccagcagcgccagacgggattcggggcttcccccggtgccggtatgtgcacaaagtatcaggaacgggaccgtgtgccggagactttgccttccacaaagagggtgctttcttcctgtatgatcgacttgcttccacagttatctaccgaggaacgactttcgctgaaggtgtcgttgcatttctgatactgccccaagctaagaaggacttcttcagctcacaccccttgagagagccggtcaatgcaacggaggacccgtctagtggctactactctaccacaattagatatcaggctaccggttttggaaccaatgagacagagtacttgttcgaggttgacaatttgacctatgtccaacttgaatcaagattcacaccacagtttctgctccagctgaatgagacaatatatacaagtgggaagaggagcaataccacgggaaaactaatttggaaggtcaaccccgaaattgatacaacaatcggggagtgggccttctgggaaactaaaaaaacctcactagaaaaattcgcagtgaagagttgtctttcacagctgtatcaaacggagccaaaaacatcagtggtcagagtccggcgcgaacttcttccgacccaggtaccaacacaacaactgaagaccacaaaatcatggcttcagaaaattcctctgcaatggttcaagtgcacagtcaaggaagggaagctgcagtgtcgcatctgacaacccctgccacaatctccacgagtcctcaacccctcacaaccaagccaggtccggacaacagcacccataatacacccgtgtataaacttgacatctctgaggcaactcaagttgaacaacatcaccgcagaacagacaacgacagcacagcctccgacactccccccgccacgaccgcagccggaaccccaaaaacagagaacgccaacacgagcaagagcactgacctcctggaccccgccaccacaacaagtccccaaaaccacagcaagaccgctggcaacaacaacactcatcaccaagataccggagaagagagtgccagcagcgggaggctaggcttaattaccaatactattgctggagttgcaggactgatcacaggcgggagaagaactcgaagagaagcaattgtcaatgctcaacccaaatgcaaccctaatttacattactggactactcaggatgaaggtgctgcaatcggactggcctggataccatatttcgggccagcagccgagggaatttacacagaggggctaatgcacaatcaagatggtttaatctgtgggttgagacagctggccaacgagacgactcaagctcttcaactgttcctgagagccacaaccgagctacgcactttttcaatcctcaaccgtaaggcaattgatttcttgctgcagcgatggggcggcacatgccacattttgggaccggactgctgtatcgaaccacatgattggaccaagaacataacagacaaaattgatcagattattcatgattttgttgataaaacccttccggaccagggggacaatgacaattggtggacaggatggagacagtggataccggcaggtattggagttacaggcgttataattgcagttatcgctttattctgtatatgcaaatttgtcttttagtttttcttcagattgcttcatagcaaagctcagcctcaaatcaatgaaaccaggatttaattatatggattacttgaatctaagattacttgacaaatgataatataatacactggagctttaaacataaccaatatgattctaattcttttaaactcacagttaatcataaacaaggtttgacatcaatctagttatctctttgagaatgataaacttgatgaagattaagaaaaaggtaatctttcgattatctttaatcttcatcctcgattctacaatcatgacagttgtctttagtgacaagggaaagaagcctttttattaagttgtaataatcagatctgcgaaccggtagagtttagttgcaacccaacacacataaagcattggtcaaaaagtcaatagaaatttaaacagtgagtggagacaacttttaaatggaagcttcatatgagagaggacgcccacgagctgccagacagcattcaagggatggacacgaccaccatgttcgagcacgatcatcatccagagagaattatcgaggtgagtaccgtcaatcaaggagcgcctcacaagtgcgcgttcctactgtatttcataagaagagagttgaaccattaacagttcctccagcacctaaggacatatgtccgaccttgaaaaaaggatttttgtgtgacagtagtttttgcaaaaaagatcaccagttggagagtttaactgatagggaattactcctactaatcgcccgtaagacttgtggatcagtagaacaacaattaaatataactgcacccaaggactcacgcttagcaaatccaacggctgatgatttccagcaagaagaaggtccaaaaattaccttgttgacactgatcaagacggcagaacactgggcgagacaagacatcagaaccatagaggattcaaagttaagagcattgttgactctatgtgctgtgatgacgaggaaattctcaaaatcccagctgagtcttttatgtgagacacacctaaggcgcgaggggcttgggcaagatcaggcagaacccgttctcgaagtatatcaacgattacacagtgataaaggaggcagttttgaagctgcactatggcaacaatgggaccgacaatccctaattatgtttatcactgcattcttgaatatcgctctccagttaccgtgtgaaagttctgctgtcgttgtttcagggttgagaacattggttcctcaatcagataatgaggaagcttcaaccaacccggggacatgctcatggtccgatgagggtaccccttaataaggctgactaaaacactatataaccttctacttgatcacaatactccgtatacctatcatcatatatttaatcaagacaatatcctttaaaacttattcagtactataatcactctcgtttcaaattaataagatgtgcatgattgccctaatatgtgaagaggtatgatacaaccctaacagtgaccaaaggaaatcgtaatctcgtatcgctcgtaatataacctgccaagcatacctcttgcacaaagtgattcttgtacacaaataatgttttactctacaggaggtagcaacgatccatcccatcaaaaaataagtattttatgacctactaatgatctcttaaaatattaagaaaaactgacggaacataaattctttctgcttcaagttgtggaggaggtgtttggtattggctattgttatattacaatcaataacaagcttgtaaaaatattgttcttgtttcaagaggtagattgtgaccggaaatgctaaactaatgatgaagattaatgcggaggtctgataagaataaaccttattattcagattaggcccctagaggcattcttcatctccttttagcaaagtactatttcaaggtagtccaattagtgacacgtcttttagctgtatatcagtcgcccctgagatacgctacaaaagtgtctctaagctaaattggtctgtacacatctcatacattgtattaggggcaataatatctaattgaacttagccgtttaaaatttagtgcataaatctgggctaactccaccaggtcaactccattggctgaaaagaagcctacctacaacgaacatcactttgagcgccctcacaattaaaaaataggaacgtcgttccaacaatcgagcgcaaggtttcaaggttaaattgagagtgtctagacaacaaaatatcgatactccagataccaagcaagacctgagaaaaaaccatggctaaagctacgggacgatacaatctaatatcgcccaaacaggacctggagaaaggggttgtcttaagcgacctctgtaacttcttagttagccagactattcaggggtggaaggtttattgggctggtattgagtttgatgtgactcacaaaggaatggccctattgcataggctgaaaactaatgactttgcccctgcatggtcaatgacaaggaatctctttcctcatttatttcaaaatccgaattctacaattgaatcaccgctgtgggcattgagagtcatccttgcagcagggatacaagaccagctgattgaccagtctttgattgaacccttagcaggagcccttggtctgatctctgattggctgctaacaactaacactaaccatttcaacatgcgaacacaacgtgtcaaggaacaattgagcctaaaaatgctgtcgttgattagatctaatattctcaagtttattaacaaattggatgctctacatgttgtgaactacaacggattgttgagcagtattgaaattggaactcaaaatcatacaatcatcataactcgaactaacatgggttttctggtggagctccaagaacccgacaaatcggcaatgaaccgcaagaagcctgggccggcgaaattttccctccttcatgagtccacactgaaagcatttacacaaggatcctcgacacgaatgcagagtttgattcttgaatttaatagctctcttgctatctaactaaggtggaatacttcatattgagctaactcatatatgctgactcaatagttatcttgacatctctgctttcataatcagatatataagcataataaataaatactcatatttcttgataatttgtttaaccacagataaatcctcactgtaagccagcttccaagttgacacccttacaaaaaccaggactcagaatccctcaaataagagattccaagacaacatcatagaattgctttattatatgaataagcattttatcaccagaaatcctatatactaaatggttaattgtaactgaacccgcaggtcacatgtgttagatttcacagattctatatattactaactctatactcgtaattaacattagataagtagattaaga-aaaaagcctgaggaagattaagaaaaactgcttattgggtctttccgtgttttagatgaagcagttgaaattcttcctcttgatattaaatggctacacaacatacccagtacccagacgctaggttatcatcaccaattgtattggaccaatgtgacctagtcactagagcttgcgggttatattcatcatactcccttaatccgcaactgcgcaactgtaaactcccgaaacatatctaccgtttaaaatacgatgtaactgttaccaagttcttgagtgatgtaccagtggcgacattgcccatagatttcatagtcccaattcttctcaaggcactgtcaggcaatgggttctgtcctgttgagccgcggtgccaacagttcttagatgaaatcattaagtacacaatgcaagatgctctcttcttgaaatattatctcaaaaatgtgggtgctcaagaagactgtgttgatgaccactttcaagagaaaatcttatcttcaattcagggcaatgaatttttacatcaaatgtttttctggtatgatctggctattttgactcgaaggggtagattaaatcgaggaaactctagatcaacatggtttgttcatgatgatttaatagacatcttaggctatggggactatgttttttggaaaatcccaatttcaatgttaccactgaacacacaaggaatcccccatgctgctatggactggtatcaggcatcagtattcaaagaagcggttcaagggcatacacacattgtttctgtttctactgccgacgtcttgataatgtgcaaagatttaattacatgtcgattcaacacaactctaatctcaaagatagcagagattgaggatccagtttgttctgattatcccaattttaagattgtgtctatgctttaccagagcggagattacttactctccatattagggtctgatgggtataaaattattaagttcctcgaaccattgtgcttggccaaaattcaattatgctcaaagtacactgaaaggaagggccgattcttaacacaaatgcatttagctgtaaatcacaccctagaagaaattacagaaatgcgtgcactaaagccctcacaggctcaaaagatccgcgagttccatagaacattgataaggctagagatgacgccacaacaactttgtgagctattttccattcaaaaacactgggggcatcctgtgctacatagtgaaacagcaatccaaaaagttaaaaaacacgctacggtgctaaaagcattacgccctatagtgattttcgagacatactgtgtttttaaatatagtattgccaaacattattttgatagtcaaggatcttggtacagtgttacttcagataggaatctaacaccaggtcttaattcttatatcaaaagaaatcaattccctccgttgccaatgattaaagaactactatgggaattttaccaccttgaccatcctccacttttctcaaccaaaattattagtgacttaagtatttttataaaagacagagctaccgcagtagaaaggacatgctgggatgcagtattcgagcctaatgttctaggatataatccacctcacaaatttagtaccaaacgtgtaccggaacaatttttagagcaagaaaacttttctattgagaatgttctttcctacgcgcaaaaactcgagtatctactaccacaatatcggaacttttctttctcattgaaagaaaaagagttgaatgtaggtagaaccttcggaaaattgccttatccgactcgcaatgttcaaacactttgtgaagctctgttagctgatggtcttgctaaagcatttcctagcaatatgatggtagttacggaacgtgagcaaaaagaaagcttattgcatcaagcatcatggcaccacacaagtgatgattttggtgaacatgccacagttagagggagtagctttgtaactgatttagagaaatacaatcttgcatttagatatgagtttacagcaccttttatagaatattgcaatcgttgctatggtgtgaagaatgtttttaattggatgcattatacaatcccacagtgttatatgcatgtcagtgattattataatccaccacataacctcacactggaaaatcgagacaacccccccgaagggcctagttcatacagaggtcatatgggagggattgaaggactgcaacaaaaactctggacaagtatttcatgtgctcaaatttctttagttgaaattaagactggttttaagttacgctcagctgtgatgggtgacaatcagtgcattaccgttttatcagtcttccccttagagactgacgcagacgagcaggaacagagcgccgaagacaatgcagcgagggtggccgccagtctagcaaaagttacaagtgcctgtggaatctttttaaaacctgatgaaacatttgtacattcaggttttatctattttggaaaaaaacaatatttgaatggggtccaattgcctcagtcccttaaaacggctacaagaatggcaccattgtctgatgcaatttttgatgatcttcaagggactctggctagtataggcactgcttttgagcgatccatctctgagacacgacatatctttccttgcaggataaccgcagctttccatacgtttttttcggtgagaatcttgcaatatcatcatctcgggttcaataaaggttttgaccttggacagttaacactcggcaaacctctggatttcggaacaatatcattggcactagcggtaccgcaggtgcttggagggttatccttcttgaatcctgagaaatgtttctaccggaatctaggagatccagttacctcaggcttattccagctaaaaacttatcttcgaatgattgagatggatgatttattcctacctttaattgcgaagaaccctgggaactgcactgccattgactttgtgctaaatcctagcggattaaatgtccctgggtcgcaagacttaacttcatttctgcgccagattgtacgcaggaccatcaccctaagtgcgaaaaacaaacttattaataccttatttcatgcgtcagctgacttcgaagacgaaatggtttgtaaatggctattatcatcaactcctgttatgagtcgttttgcggcagatatcttttcacgcacgccgagcgggaagcgattgcaaattctaggatacctggaaggaacacgcacattattagcctctaaaatcatcaacaataatacagagacaccggttttggacagactgaggaaaataacattgcaaaggtggagtctatggtttagttatcttgatcattgtgataatatcctggcggaggctttaacccaaataacttgcacagttgatttagcacagatcctgagggagtattcatgggctcatattttagagggaagacctcttattggagccacactcccatgtatgattgagcaattcaaagtgttttggctgaaaccctacgaacaatgtccgcagtgttcaaatgcaaaacaaccaggcgggaaaccattcgtgtcagtggcagtcaagaaacatattgttagtgcatggccgaacgcatcccgaataagctggactatcggggatggaatcccatacattggatcaaggacagaagataagataggacaacctgctattaaaccaaaatgtccttctgcagccttaagagaggccattgaattggcgtcccgtctaacatgggtaactcaaggcagttcgaacagtgacttgctaataaaaccatttttggaagcacgagtaaatttaagtgttcaagaaatacttcaaatgaccccttcacattactcaggaaatattgttcacaggtacaacgatcaatacagtcctcattctttcatggccaatcgtatgagtaattcagcaacgcgattgattgtttctacaaacactttaggtgagttttcaggaggtggccaatctgcacgcgacagcaatattattttccagaatgttataaattatgcagttgcactgttcgatattaaatttagaaacactgaggctacagacatccaatataatcgtgctcaccttcatctaactaagtgttgcacccgggaagtaccagctcagtatttaacatacacatctacattggatttagatttaacaagataccgagaaaacgaattgatttatgacaacaatcctctaaaaggaggactcaattgcaatatctcattcgataacccatttttccaaggtaaacggctgaacatcatagaagatgatcttattcgactgcctcacttatctggatgggagctagccaagaccatcatgcaatcaattatctcagatagcaacaattcatctacagacccaattagcagtggagaaacaagatcattcactacccatttcttaacttatcccaagataggacttttgtacagttttggggcctttgtaagttattatcttggcaatacaattcttcggactaagaaattaacacttgacaattttttatattacttaactacccaaattcataatctaccacatcgctcattgcgaatacttaagccgacattcaaacatgcaagcgttatgtcacggttaatgagtattgaccctcatttttctatttacataggcggtgctgcaggtgacagaggactctcagatgcggccaggttattcttgagaacgtccatttcatcttttcttacatttgtaaaagaatggataattaatcgcggaacaattgtccctttatggatagtatatccgctagagggtcaaaacccaacacctgttaataattttctctatcagatcgtagaactgctggtgcatgattcatcaagacaacaggctttaaaaactaccataagtgatcatgtacatcctcacgacaatcttgtttatacatgtaagagtacagccagcaatttcttccatgcatcattggcgtactggaggagcaggcacagaaacagcaaccgaaaatacttggcaggagactcttcaactggatcaagcacaaacaacagtgatggtcatattgagagaagtcaagaacaaactaccagagatccacatgatggcactgaacggaatctagtcctacaaatgagccatgaaatcaaaagaacgacaattccacaagaaaacacgcaccagggtccgtcgtttcagtcctttctaagtgactctgcttgtggtacagcaaatccaaaactaaatttcgatcgatcgagacacagtgtgaaatctcaagatcataactcggcatccaagagggaaagtcatcaaataatctcacaccgtctagtcctacctttctttacattatctcaagggacacgccaattaacttcatccaatgagtcacaaacccaagacgagatatcaaagtacttacggcaattgagatccgtcattgataccacagtttattgtaggtttaccggtatagtctcgtccatgcattacaaacttgatgaggtcctttgggaaatggagagttttaagtcggctgtgacgctagcagagggagaaggtgctggtgccttactattgatccagaaataccaagttaaaactttatttttcaacacgctagctactgagtccagtatagagtcagaaatagtatcaggaatgactactcctaggatgcttctacctgttatgtcaaaattccataatgaccaaattgagattatccttaacaactcagcaagccaaataacagacataacaaatcctacttggttcaaagaccaaaaagcaaggctacctaagcaagtcgaagttataaccatggatgcagagacgacagagaatataaacagatcgaaattgtacgaagctgtatataaattgatcttacaccatattgatcccagcgtattgaaagcagtggtccttaaagtctttctaagtgatactgagggtatgttatggctaaatgataatttagccccgttttttgccactggttatttaattaagccaataacgtcaagtgctagatctagtgagtggtatctttgtctgacgaacttcttatcaactacacgtaagatgccacaccaaaaccatctcagttgtaaacaggtaatacttatggcattgcaactgcaaattcaacggagcccatactggctaagtcatttaactcagtatgctgactgtgatttacatttaagttatatccgccttggttttccatcattagagaaagtactataccacaggtataacctcgtcgattcaaaaagaggtccactagtctctatcactcagcacttagcacatcttagagcagagattcgagaattaactaatgattataatcaacagcgacaaagtcggactcaaacatatcactttattcgtactgcaaaaggacgaatcacaaaactagtcaatgattatttaaaattctttcttattgtgcaagcattaaaacataatgggacatggcaagctgagtttaagaaattaccagagttgattagtgtgtgcaataggttctaccatattagagattgcaattgtgaagaacgtttcttagttcaaaccttatatttacatagaatgcaggattctgaagttaagcttatcgaaaggctgacagggcttctgagtttatttccggatggtctctacaggtttgattgaattaccgtgcatagtatcctgatacttgcaaaggttggttattaacagacagattataaaaaacttataaattgctctcatacatcatattgatctaatttcaataaacaactatttaaataacgaaaggagtccctatattatacactatatttagcctctctccctgcgtgataatc-aaaaattcacaatgcagcatgtgtgacatattactgccgcaatgaatctgacgcaacgtaataaattctgcactctttataattaagctttaacgaaaggtctgggctcatattgttattgatatagcaatgttgtatcaatatcctgtcagatggaatagtgttttggttgataacacgacttcttaaaacaaaattgatctttaagattaagttttttataatt-ataattatccttactttaatttgtcgttttaaaaatggtgatagccttaatctttgtgtaaaataagagattcggtgtaataactttaacattttggtctaataagctactatttcatacagaatgataaaattaaaagaaaaggcaggactgtaaaatcagaaataccttctttacaatttagcagactagataataatcttcgtgttaatgataattaagacattgaccacgcttatcagaaggcgtaccagaataaacgttgcaaaaaggattcctggaaaaatggtcgcacacaaaaatttaaa----aataaatctattt-----ctt--------------c
 </sequence><sequence>
@@ -527,7 +520,6 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 </sequence>
 	</alignment>
 	
-	
 	<!-- The unique patterns from 1 to end                                       -->
 	<!-- npatterns=249                                                           -->
 	<patterns id="patterns" from="1" strip="false">
@@ -590,17 +582,38 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 	</coalescentLikelihood>
 	
 
-	<!-- The strict clock (Uniform rates across branches)                        -->
-	<strictClockBranchRates id="branchRates">
-		<rate>
-			<parameter id="clock.rate" value="0.25" lower="0.0"/>
-		</rate>
-	</strictClockBranchRates>
+	<!-- The uncorrelated relaxed clock (Drummond, Ho, Phillips & Rambaut (2006) PLoS Biology 4, e88 )-->
+	<discretizedBranchRates id="branchRates">
+		<treeModel idref="treeModel"/>
+		<distribution>
+			<logNormalDistributionModel meanInRealSpace="true">
+				<mean>
+					<parameter id="ucld.mean" value="0.25" lower="0.0"/>
+				</mean>
+				<stdev>
+					<parameter id="ucld.stdev" value="0.3333333333333333" lower="0.0"/>
+				</stdev>
+			</logNormalDistributionModel>
+		</distribution>
+		<rateCategories>
+			<parameter id="branchRates.categories"/>
+		</rateCategories>
+	</discretizedBranchRates>
 	
 	<rateStatistic id="meanRate" name="meanRate" mode="mean" internal="true" external="true">
 		<treeModel idref="treeModel"/>
-		<strictClockBranchRates idref="branchRates"/>
+		<discretizedBranchRates idref="branchRates"/>
 	</rateStatistic>
+	
+	<rateStatistic id="coefficientOfVariation" name="coefficientOfVariation" mode="coefficientOfVariation" internal="true" external="true">
+		<treeModel idref="treeModel"/>
+		<discretizedBranchRates idref="branchRates"/>
+	</rateStatistic>
+	
+	<rateCovarianceStatistic id="covariance" name="covariance">
+		<treeModel idref="treeModel"/>
+		<discretizedBranchRates idref="branchRates"/>
+	</rateCovarianceStatistic>
 	
 
 	<!-- The HKY substitution model (Hasegawa, Kishino & Yano, 1985)             -->
@@ -640,7 +653,7 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<siteModel idref="siteModel"/>
 		</partition>
 		<treeModel idref="treeModel"/>
-		<strictClockBranchRates idref="branchRates"/>
+		<discretizedBranchRates idref="branchRates"/>
 	</treeDataLikelihood>
 	
 
@@ -650,16 +663,25 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<parameter idref="alpha"/>
 		</scaleOperator>
 		<scaleOperator scaleFactor="0.75" weight="3">
-			<parameter idref="clock.rate"/>
+			<parameter idref="ucld.mean"/>
+		</scaleOperator>
+		<scaleOperator scaleFactor="0.75" weight="3">
+			<parameter idref="ucld.stdev"/>
 		</scaleOperator>
 		<upDownOperator scaleFactor="0.75" weight="3">
 			<up>
 				<parameter idref="treeModel.allInternalNodeHeights"/>
 			</up>
 			<down>
-				<parameter idref="clock.rate"/>
+				<parameter idref="ucld.mean"/>
 			</down>
 		</upDownOperator>
+		<swapOperator size="1" weight="10" autoOptimize="false">
+			<parameter idref="branchRates.categories"/>
+		</swapOperator>
+		<uniformIntegerOperator weight="10">
+			<parameter idref="branchRates.categories"/>
+		</uniformIntegerOperator>
 		<subtreeSlide size="1.0" gaussian="true" weight="30">
 			<treeModel idref="treeModel"/>
 		</subtreeSlide>
@@ -694,20 +716,28 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 				<exponentialPrior mean="0.5" offset="0.0">
 					<parameter idref="alpha"/>
 				</exponentialPrior>
+
 				<ctmcScalePrior>
-                                        <ctmcScale>
-                                                <parameter idref="clock.rate"/>
-                                        </ctmcScale>
-                                        <treeModel idref="treeModel"/>
+                                  <ctmcScale>
+                                    <parameter idref="ucld.mean"/>
+                                  </ctmcScale>
+                                  <treeModel idref="treeModel"/>
                                 </ctmcScalePrior>
-				<exponentialPrior mean="100">
-				  <parameter idref="exponential.popSize"/>
+
+				<exponentialPrior mean="0.3333333333333333" offset="0.0">
+					<parameter idref="ucld.stdev"/>
 				</exponentialPrior>
+				<exponentialPrior mean="1e5">
+				  <parameter idref="exponential.popSize"/>
+				
+				  </exponentialPrior>			
 				<laplacePrior mean="0.0" scale="1.0">
 					<parameter idref="exponential.growthRate"/>
 				</laplacePrior>
-				<coalescentLikelihood idref="coalescent"/>				
-				<strictClockBranchRates idref="branchRates"/>
+				<coalescentLikelihood idref="coalescent"/>
+				
+				
+				<discretizedBranchRates idref="branchRates"/>
 			</prior>
 			<likelihood id="likelihood">
 				<treeDataLikelihood idref="treeLikelihood"/>
@@ -729,13 +759,13 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<column label="age(root)" sf="6" width="12">
 				<tmrcaStatistic idref="age(root)"/>
 			</column>
-			<column label="clock.rate" sf="6" width="12">
-				<parameter idref="clock.rate"/>
+			<column label="ucld.mean" sf="6" width="12">
+				<parameter idref="ucld.mean"/>
 			</column>
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="5000" fileName="ebola_2018Public_sc_het.log" overwrite="false">
+		<log id="fileLog" logEvery="5000" fileName="ebola_2018Public_ucld_het.log" overwrite="false">
 			<joint idref="joint"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -744,23 +774,28 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<treeLengthStatistic idref="treeLength"/>
 			<parameter idref="exponential.popSize"/>
 			<parameter idref="exponential.growthRate"/>
+			<parameter idref="kappa"/>
+			<parameter idref="frequencies"/>
 			<parameter idref="alpha"/>
-			<parameter idref="clock.rate"/>
+			<parameter idref="ucld.mean"/>
+			<parameter idref="ucld.stdev"/>
 			<rateStatistic idref="meanRate"/>
+			<rateStatistic idref="coefficientOfVariation"/>
+			<rateCovarianceStatistic idref="covariance"/>
 			<treeDataLikelihood idref="treeLikelihood"/>
-			<strictClockBranchRates idref="branchRates"/>
+			<discretizedBranchRates idref="branchRates"/>
 			<coalescentLikelihood idref="coalescent"/>
 			
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<!--logTree id="treeFileLog" logEvery="5000" nexusFormat="true" fileName="ebola_2018Public_sc_het.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="5000" nexusFormat="true" fileName="ebola_2018Public_ucld_het.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
-				<strictClockBranchRates idref="branchRates"/>
+				<discretizedBranchRates idref="branchRates"/>
 			</trait>
 			<joint idref="joint"/>
-		</logTree-->
+		</logTree>
 	</mcmc>
 	
 
@@ -769,10 +804,10 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 	<!-- A working prior for the exponential growth model.                       -->
 	<exponentialGrowth id="exponentialReference" units="years">
 		<populationSize>
-			<parameter id="exponentialReference.popSize" parameterColumn="exponential.popSize" fileName="ebola_2018Public_sc_het.log" burnin="5000000"/>
+			<parameter id="exponentialReference.popSize" parameterColumn="exponential.popSize" fileName="ebola_2018Public_ucld_het.log" burnin="5000000"/>
 		</populationSize>
 		<growthRate>
-			<parameter id="exponentialReference.growthRate" parameterColumn="exponential.growthRate" fileName="ebola_2018Public_sc_het.log" burnin="5000000"/>
+			<parameter id="exponentialReference.growthRate" parameterColumn="exponential.growthRate" fileName="ebola_2018Public_ucld_het.log" burnin="5000000"/>
 		</growthRate>
 	</exponentialGrowth>
 
@@ -797,30 +832,33 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			</source>
 			<destination>
 				<workingPrior>
-					<logTransformedNormalReferencePrior fileName="ebola_2018Public_sc_het.log" parameterColumn="alpha" burnin="5000000">
+					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_het.log" parameterColumn="alpha" burnin="5000000">
 						<parameter idref="alpha"/>
 					</logTransformedNormalReferencePrior>
-					<logTransformedNormalReferencePrior fileName="ebola_2018Public_sc_het.log" parameterColumn="clock.rate" burnin="5000000">
-						<parameter idref="clock.rate"/>
+					<discretizedBranchRates idref="branchRates"/>
+					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_het.log" parameterColumn="ucld.mean" burnin="5000000">
+						<parameter idref="ucld.mean"/>
 					</logTransformedNormalReferencePrior>
-					<strictClockBranchRates idref="branchRates"/>
-					<logTransformedNormalReferencePrior fileName="ebola_2018Public_sc_het.log" parameterColumn="exponential.popSize" burnin="5000000">
+					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_het.log" parameterColumn="ucld.stdev" burnin="5000000">
+						<parameter idref="ucld.stdev"/>
+					</logTransformedNormalReferencePrior>
+					<logTransformedNormalReferencePrior fileName="ebola_2018Public_ucld_het.log" parameterColumn="exponential.popSize" burnin="5000000">
 						<parameter idref="exponential.popSize"/>
 					</logTransformedNormalReferencePrior>
-					<normalReferencePrior fileName="ebola_2018Public_sc_het.log" parameterColumn="exponential.growthRate" burnin="5000000">
+					<normalReferencePrior fileName="ebola_2018Public_ucld_het.log" parameterColumn="exponential.growthRate" burnin="5000000">
 						<parameter idref="exponential.growthRate"/>
 					</normalReferencePrior>
 					<coalescentLikelihood idref="coalescentReference"/>
 				</workingPrior>
 			</destination>
 		</pathLikelihood>
-		<log id="MLELog" logEvery="500" fileName="ebola_2018Public_sc_het.mle.log">
+		<log id="MLELog" logEvery="500" fileName="ebola_2018Public_ucld_het.mle.log">
 			<pathLikelihood idref="pathLikelihood"/>
 		</log>
 	</marginalLikelihoodEstimator>
 
 	<!-- Generalized stepping-stone sampling estimator from collected samples    -->
-	<generalizedSteppingStoneSamplingAnalysis fileName="ebola_2018Public_sc_het.mle.log" resultsFileName="ebola_2018Public_sc_het.mle.result.log">
+	<generalizedSteppingStoneSamplingAnalysis fileName="ebola_2018Public_ucld_het.mle.log" resultsFileName="ebola_2018Public_ucld_het.mle.result.log">
 		<sourceColumn name="pathLikelihood.source"/>
 		<destinationColumn name="pathLikelihood.destination"/>
 		<thetaColumn name="pathLikelihood.theta"/>
