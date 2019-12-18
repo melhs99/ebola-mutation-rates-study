@@ -1,0 +1,29 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v0.3beta 
+
+
+Input files:
+  I                                 Input tree file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/date/RAxML_bestTree.2015.5-2016_tree
+  D                                 Input date file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/date/2015.5-2016.date
+  P                                  Partition file : No
+Output file:
+  O                                    Output file  : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/date/RAxML_bestTree.2015.5-2016_tree.result
+Parameters:
+  C                                With constraints : Yes
+  T                        Lower bound for the rate : 1.000e-10
+  V                                  With variances : No
+  S                                 Sequence Length : 1000
+  R                               Estimate the root : Use fast method to search on all branches
+  W                         Given substitution rate : No
+  G                                 Given outgroups : No
+  N                               Multiple data set : No
+  F                    Compute confidence intervals : Yes, sampling 100 times
+
+  H to print Help 
+  Y to accept or type a letter to change an option (Q = Exit) 
+Tree 1 rate 2.186e-04 , tMRCA 2011.319864 , objective function 2.840948e-03
+rate 2.186e-04 [1.000e-10 , 1.208e-03] , tMRCA 2011.319864 [-19150473.029034 , 2014.925946] , objective function 2.840948e-03
+
+
+*********************************************************
+Elapsed time: 3.25 seconds
