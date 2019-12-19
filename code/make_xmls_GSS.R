@@ -36,6 +36,6 @@ input_files
 library(ape)
 input_data<-read.dna(input_files[1],format="fasta")
 make_xml(input_data,template_strict_dates,'ebola_2018Public_sc_het')
-make_xml(input_data,template_strict_ultra,'ebola_2018Public_sc_iso')
+make_xml(input_data,template_strict_ultra,'ebola_2018Public_sc_iso', ultra=T)
 make_xml(input_data,template_ucld_dates,'ebola_2018Public_ucld_het')
-make_xml(input_data,template_ucld_ultra,'ebola_2018Public_ucld_iso')
+make_xml(input_data,template_ucld_ultra,'ebola_2018Public_ucld_iso', ultra=T)
