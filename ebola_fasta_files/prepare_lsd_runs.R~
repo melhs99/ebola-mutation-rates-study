@@ -1,0 +1,12 @@
+
+#install.packages('devtools')
+#install_github('sebastianduchene/NELSI')
+
+library(NELSI)
+
+tr <- read.tree('RAxML_bestTree.test_subset1_ml')
+make.lsd.dates(tr, grep.sep = '.+@', outfile = 'test_subset1_ml.date')
+
+
+#lsd -i RAxML_bestTree.test_subset1_ml -d test_subset1_ml.date -r a -c -f 100 -s 1000
+#https://github.com/tothuhien/lsd-0.3beta
