@@ -1,0 +1,4 @@
+library(ape)
+
+
+aln <- read.dna('

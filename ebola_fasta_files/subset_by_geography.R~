@@ -1,0 +1,4 @@
+library(ape)
+
+large_aln <- read.dna('2014_large_3.fasta', format = 'fasta')
+
