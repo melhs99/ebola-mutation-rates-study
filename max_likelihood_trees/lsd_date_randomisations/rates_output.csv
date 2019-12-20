@@ -1,0 +1,14 @@
+file_name,lsd_rate,lower95CI,upper95CI,pval
+RAxML_bestTree.2012-2014.5_large2014_max200_tree,1.000e-10,1.000e-10,1.662e-03,0
+RAxML_bestTree.2012-2014.5_sierra_leone_max200_tree,1.624e-04,1.000e-10,2.758e-03,0.96
+RAxML_bestTree.2014-2014.5_tree,1.000e-10,1.000e-10,1.662e-03,0
+RAxML_bestTree.2015.5-2016_tree,2.186e-04,1.000e-10,1.208e-03,0.95
+RAxML_bestTree.2018Public_T1,1.094e-03,1.000e-10,6.470e-03,1
+RAxML_bestTree.Democratic_Republic_of_the_Congo_tree,6.151e-03,4.033e-03,1.016e-02,1
+RAxML_bestTree.early2014_T1,3.437e-04,1.000e-10,1.668e-03,1
+RAxML_bestTree.guinea_tree,3.412e-04,9.337e-05,6.105e-04,1
+RAxML_bestTree.liberia_subset_tree,2.267e-04,1.000e-10,5.051e-04,1
+RAxML_bestTree.liberia_T1,1.960e-04,1.000e-10,5.017e-04,1
+RAxML_bestTree.subset2_tree,7.969e-05,1.000e-10,2.521e-04,0.83
+RAxML_bestTree.subset3_tree,2.482e-05,1.000e-10,2.396e-04,0.99
+RAxML_bestTree.test_subset1_ml,2.016e-05,1.000e-10,1.377e-04,0.8

@@ -1,0 +1,30 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v0.3beta 
+
+
+Input files:
+  I                                 Input tree file : RAxML_bestTree.2012-2014.5_sierra_leone_max200_tree
+  D                                 Input date file : RAxML_bestTree.2012-2014.5_sierra_leone_max200_tree.date.random
+  P                                  Partition file : No
+Output file:
+  O                                    Output file  : RAxML_bestTree.2012-2014.5_sierra_leone_max200_tree.result
+Parameters:
+  C                                With constraints : Yes
+  T                        Lower bound for the rate : 1.000e-10
+  V                                  With variances : No
+  S                                 Sequence Length : 1000
+  R                               Estimate the root : Use fast method to search on all branches
+  W                         Given substitution rate : No
+  G                                 Given outgroups : No
+  N                               Multiple data set : No
+  F                    Compute confidence intervals : Yes, sampling 100 times
+
+  H to print Help 
+  Y to accept or type a letter to change an option (Q = Exit) 
+Tree 1 rate 1.000e-10 , tMRCA -2126833.638199 , objective function 7.057715e-05
+rate 1.000e-10 [1.000e-10 , 1.221e-03] , tMRCA -2126833.638199 [-8499727.700327 , 2014.452921] , objective function 7.057715e-05
+
+The estimated rate reaches the given lower bound. To change the lower bound, use option -t
+
+*********************************************************
+Elapsed time: 0.30 seconds

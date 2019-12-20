@@ -1,0 +1,13 @@
+
+
+dat <- read.table('rates_output.csv', head = T, sep = ',')
+#dat[, 2:4] <- log10(dat[, 2:4])
+par(mar = c(6, 4, 4, 4))
+plot(c(1, nrow(dat)), range(dat[, 3:4]), type = 'n', xaxt = 'n',
+	  xlab = '')
+axis(1, at = 1:nrow(dat), labels = gsub('.+T1|max200.+', '', dat[, 1]), las = 2,
+	cex.axis = 0.5)
+for(i in 1:nrow(dat)){
+      points(i, dat[i, 2], pch = 20)
+      lines(rep(i, 2), dat[i, 3:4])
+}

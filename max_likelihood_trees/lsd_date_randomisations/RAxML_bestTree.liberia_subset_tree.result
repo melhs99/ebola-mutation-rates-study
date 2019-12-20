@@ -1,0 +1,29 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v0.3beta 
+
+
+Input files:
+  I                                 Input tree file : RAxML_bestTree.liberia_subset_tree
+  D                                 Input date file : RAxML_bestTree.liberia_subset_tree.date.random
+  P                                  Partition file : No
+Output file:
+  O                                    Output file  : RAxML_bestTree.liberia_subset_tree.result
+Parameters:
+  C                                With constraints : Yes
+  T                        Lower bound for the rate : 1.000e-10
+  V                                  With variances : No
+  S                                 Sequence Length : 1000
+  R                               Estimate the root : Use fast method to search on all branches
+  W                         Given substitution rate : No
+  G                                 Given outgroups : No
+  N                               Multiple data set : No
+  F                    Compute confidence intervals : Yes, sampling 100 times
+
+  H to print Help 
+  Y to accept or type a letter to change an option (Q = Exit) 
+Tree 1 rate 4.361e-06 , tMRCA 1814.815556 , objective function 2.756046e-03
+rate 4.361e-06 [1.000e-10 , 1.176e-04] , tMRCA 1814.815556 [-18993329.800865 , 2010.922153] , objective function 2.756046e-03
+
+
+*********************************************************
+Elapsed time: 5.44 seconds
