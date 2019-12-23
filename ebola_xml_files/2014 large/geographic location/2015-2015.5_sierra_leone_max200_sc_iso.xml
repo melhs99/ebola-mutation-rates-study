@@ -7,614 +7,414 @@
 <!--       David Geffen School of Medicine, University of California, Los Angeles-->
 <!--       http://beast.community/                                           -->
 <beast version="1.10.4">
-	
+
 
 	<!-- The list of taxa to be analysed (can also include dates/ages).          -->
 	<!-- ntax=50                                                                 -->
 	<taxa id="taxa">
 	  <taxon id="KU296439|NA|Sierra_Leone|2015_03_24@2015.29634300126">
-<date value="2015.29634300126" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296481|NA|Sierra_Leone|2015_03_07@2015.24989491383">
-<date value="2015.24989491383" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296515|NA|Sierra_Leone|2015_01_22@2015.13703236654">
-<date value="2015.13703236654" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296417|NA|Sierra_Leone|2015_06_08@2015.48339638504">
-<date value="2015.48339638504" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296343|NA|Sierra_Leone|2015_01_04@2015.08785203867">
-<date value="2015.08785203867" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296658|NA|Sierra_Leone|2015_03_03@2015.23896595208">
-<date value="2015.23896595208" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY401638|NA|Sierra_Leone|2015_05_21@2015.4419924338">
-<date value="2015.4419924338" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MF599516|NA|Sierra_Leone|2015_05_26@2015.45565363598">
-<date value="2015.45565363598" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296638|NA|Sierra_Leone|2015_03_22@2015.29087852039">
-<date value="2015.29087852039" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296740|NA|Sierra_Leone|2015_05_27@2015.45838587642">
-<date value="2015.45838587642" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296794|NA|Sierra_Leone|2015_01_06@2015.09331651955">
-<date value="2015.09331651955" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357843|NA|Sierra_Leone|2015_01_26@2015.14796132829">
-<date value="2015.14796132829" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296463|NA|Sierra_Leone|2015_03_10@2015.25809163514">
-<date value="2015.25809163514" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296569|NA|Sierra_Leone|2015_01_10@2015.10424548129">
-<date value="2015.10424548129" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296661|NA|Sierra_Leone|2015_02_11@2015.18390079866">
-<date value="2015.18390079866" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY366413|NA|Sierra_Leone|2015_03@2015.27175283733">
-<date value="2015.27175283733" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296429|NA|Sierra_Leone|2015_01_13@2015.11244220261">
-<date value="2015.11244220261" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MF599512|NA|Sierra_Leone|2015_03_16@2015.27448507776">
-<date value="2015.27448507776" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296844|NA|Sierra_Leone|2015_04_04@2015.31862126944">
-<date value="2015.31862126944" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296505|NA|Sierra_Leone|2015_01_21@2015.1343001261">
-<date value="2015.1343001261" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296586|NA|Sierra_Leone|2015_02_24@2015.21941992434">
-<date value="2015.21941992434" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MF599508|NA|Sierra_Leone|2015_04_06@2015.32408575032">
-<date value="2015.32408575032" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296815|NA|Sierra_Leone|2015_01_11@2015.10697772173">
-<date value="2015.10697772173" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357833|NA|Sierra_Leone|2015_01_20@2015.13156788567">
-<date value="2015.13156788567" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296746|NA|Sierra_Leone|2015_01_30@2015.15889029004">
-<date value="2015.15889029004" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357834|NA|Sierra_Leone|2015_01_20@2015.13156788567">
-<date value="2015.13156788567" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357838|NA|Sierra_Leone|2015_01_20@2015.13156788567">
-<date value="2015.13156788567" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296334|NA|Sierra_Leone|2015_01_05@2015.09058427911">
-<date value="2015.09058427911" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296377|NA|Sierra_Leone|2015_01_22@2015.13703236654">
-<date value="2015.13703236654" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296523|NA|Sierra_Leone|2015_05_01@2015.38734762505">
-<date value="2015.38734762505" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296805|NA|Sierra_Leone|2015_01_24@2015.14249684741">
-<date value="2015.14249684741" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296614|NA|Sierra_Leone|2015_04_11@2015.3377469525">
-<date value="2015.3377469525" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296394|NA|Sierra_Leone|2015_03_06@2015.24716267339">
-<date value="2015.24716267339" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296591|NA|Sierra_Leone|2015_03_23@2015.29361076082">
-<date value="2015.29361076082" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296387|NA|Sierra_Leone|2015_01_12@2015.10970996217">
-<date value="2015.10970996217" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296610|NA|Sierra_Leone|2015_01_01@2015.07965531736">
-<date value="2015.07965531736" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296500|NA|Sierra_Leone|2015_01_05@2015.09058427911">
-<date value="2015.09058427911" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296434|NA|Sierra_Leone|2015_01_04@2015.08785203867">
-<date value="2015.08785203867" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296568|NA|Sierra_Leone|2015_02_02@2015.15931063472">
-<date value="2015.15931063472" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296673|NA|Sierra_Leone|2015_05_31@2015.46931483817">
-<date value="2015.46931483817" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296493|NA|Sierra_Leone|2015_03_10@2015.25809163514">
-<date value="2015.25809163514" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296407|NA|Sierra_Leone|2015_01_19@2015.12883564523">
-<date value="2015.12883564523" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296801|NA|Sierra_Leone|2015_01_04@2015.08785203867">
-<date value="2015.08785203867" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357818|NA|Sierra_Leone|2015_03_04@2015.24169819252">
-<date value="2015.24169819252" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296506|NA|Sierra_Leone|2015_02_03@2015.16204287516">
-<date value="2015.16204287516" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296764|NA|Sierra_Leone|2015_03_24@2015.29634300126">
-<date value="2015.29634300126" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296562|NA|Sierra_Leone|2015_02_25@2015.22215216478">
-<date value="2015.22215216478" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296736|NA|Sierra_Leone|2015_02_22@2015.21395544346">
-<date value="2015.21395544346" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296697|NA|Sierra_Leone|2015_02_21@2015.21122320303">
-<date value="2015.21122320303" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296634|NA|Sierra_Leone|2015_01_18@2015.12610340479">
-<date value="2015.12610340479" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296444|NA|Sierra_Leone|2015_02_25@2015.22215216478">
-<date value="2015.22215216478" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296351|NA|Sierra_Leone|2015_03_01@2015.23350147121">
-<date value="2015.23350147121" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296703|NA|Sierra_Leone|2015_03_05@2015.24443043296">
-<date value="2015.24443043296" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296827|NA|Sierra_Leone|2015_03_03@2015.23896595208">
-<date value="2015.23896595208" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MF599511|NA|Sierra_Leone|2015_04_21@2015.36506935687">
-<date value="2015.36506935687" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296756|NA|Sierra_Leone|2015_01_11@2015.10697772173">
-<date value="2015.10697772173" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296560|NA|Sierra_Leone|2015_04_18@2015.35687263556">
-<date value="2015.35687263556" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296437|NA|Sierra_Leone|2015_03_16@2015.27448507776">
-<date value="2015.27448507776" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357841|NA|Sierra_Leone|2015_01_25@2015.14522908785">
-<date value="2015.14522908785" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296299|NA|Sierra_Leone|2015_03_02@2015.23623371164">
-<date value="2015.23623371164" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296766|NA|Sierra_Leone|2015_03_15@2015.27175283733">
-<date value="2015.27175283733" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296573|NA|Sierra_Leone|2015_03_07@2015.24989491383">
-<date value="2015.24989491383" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296721|NA|Sierra_Leone|2015_02_09@2015.17843631778">
-<date value="2015.17843631778" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296692|NA|Sierra_Leone|2015_03_23@2015.29361076082">
-<date value="2015.29361076082" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296788|NA|Sierra_Leone|2015_02_22@2015.21395544346">
-<date value="2015.21395544346" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MF599518|NA|Sierra_Leone|2015_05_26@2015.45565363598">
-<date value="2015.45565363598" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296597|NA|Sierra_Leone|2015_02_05@2015.16750735603">
-<date value="2015.16750735603" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296504|NA|Sierra_Leone|2015_05_13@2015.4201345103">
-<date value="2015.4201345103" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357845|NA|Sierra_Leone|2015_01_28@2015.15342580916">
-<date value="2015.15342580916" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296693|NA|Sierra_Leone|2015_02_06@2015.17023959647">
-<date value="2015.17023959647" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296702|NA|Sierra_Leone|2015_03_01@2015.23350147121">
-<date value="2015.23350147121" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296636|NA|Sierra_Leone|2015_01_05@2015.09058427911">
-<date value="2015.09058427911" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296786|NA|Sierra_Leone|2015_01_19@2015.12883564523">
-<date value="2015.12883564523" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296326|NA|Sierra_Leone|2015_06_10@2015.48886086591">
-<date value="2015.48886086591" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296769|NA|Sierra_Leone|2015_04_19@2015.359604876">
-<date value="2015.359604876" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296750|NA|Sierra_Leone|2015_02_21@2015.21122320303">
-<date value="2015.21122320303" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY366414|NA|Sierra_Leone|2015_03@2015.27175283733">
-<date value="2015.27175283733" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357844|NA|Sierra_Leone|2015_01_28@2015.15342580916">
-<date value="2015.15342580916" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296350|NA|Sierra_Leone|2015_01_13@2015.11244220261">
-<date value="2015.11244220261" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296728|NA|Sierra_Leone|2015_02_12@2015.18663303909">
-<date value="2015.18663303909" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296536|NA|Sierra_Leone|2015_02_23@2015.2166876839">
-<date value="2015.2166876839" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296773|NA|Sierra_Leone|2015_01_29@2015.1561580496">
-<date value="2015.1561580496" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296372|NA|Sierra_Leone|2015_01_22@2015.13703236654">
-<date value="2015.13703236654" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296519|NA|Sierra_Leone|2015_02_13@2015.18936527953">
-<date value="2015.18936527953" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296663|NA|Sierra_Leone|2014_12_31@2015.00777637663">
-<date value="2015.00777637663" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296559|NA|Sierra_Leone|2015_04_08@2015.32955023119">
-<date value="2015.32955023119" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296317|NA|Sierra_Leone|2015_01_26@2015.14796132829">
-<date value="2015.14796132829" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357854|NA|Sierra_Leone|2015_02_18@2015.20302648172">
-<date value="2015.20302648172" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357849|NA|Sierra_Leone|2015_02_04@2015.16477511559">
-<date value="2015.16477511559" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296633|NA|Sierra_Leone|2015_03_16@2015.27448507776">
-<date value="2015.27448507776" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296646|NA|Sierra_Leone|2015_02_01@2015.15657839428">
-<date value="2015.15657839428" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296366|NA|Sierra_Leone|2015_02_23@2015.2166876839">
-<date value="2015.2166876839" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296622|NA|Sierra_Leone|2015_01_31@2015.16162253047">
-<date value="2015.16162253047" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296720|NA|Sierra_Leone|2015_03_04@2015.24169819252">
-<date value="2015.24169819252" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296784|NA|Sierra_Leone|2015_03_29@2015.31000420345">
-<date value="2015.31000420345" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296338|NA|Sierra_Leone|2015_02_20@2015.20849096259">
-<date value="2015.20849096259" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296308|NA|Sierra_Leone|2015_04_13@2015.34321143338">
-<date value="2015.34321143338" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MF599504|NA|Sierra_Leone|2015_05_04@2015.39554434636">
-<date value="2015.39554434636" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296584|NA|Sierra_Leone|2015_01_22@2015.13703236654">
-<date value="2015.13703236654" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296507|NA|Sierra_Leone|2015_01_08@2015.09878100042">
-<date value="2015.09878100042" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296390|NA|Sierra_Leone|2015_03_16@2015.27448507776">
-<date value="2015.27448507776" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357840|NA|Sierra_Leone|2015_01_21@2015.1343001261">
-<date value="2015.1343001261" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296595|NA|Sierra_Leone|2015_03_06@2015.24716267339">
-<date value="2015.24716267339" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296800|NA|Sierra_Leone|2015_03_17@2015.2772173182">
-<date value="2015.2772173182" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296486|NA|Sierra_Leone|2015_06_04@2015.47246742329">
-<date value="2015.47246742329" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296485|NA|Sierra_Leone|2015_02_26@2015.22488440521">
-<date value="2015.22488440521" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296689|NA|Sierra_Leone|2015_03_12@2015.26355611602">
-<date value="2015.26355611602" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296698|NA|Sierra_Leone|2015_01_29@2015.1561580496">
-<date value="2015.1561580496" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296741|NA|Sierra_Leone|2015_02_10@2015.18116855822">
-<date value="2015.18116855822" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357813|NA|Sierra_Leone|2015_02_19@2015.20575872215">
-<date value="2015.20575872215" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296349|NA|Sierra_Leone|2015_03_03@2015.23896595208">
-<date value="2015.23896595208" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MF599506|NA|Sierra_Leone|2015_03_17@2015.2772173182">
-<date value="2015.2772173182" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296557|NA|Sierra_Leone|2015_02_20@2015.20849096259">
-<date value="2015.20849096259" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296660|NA|Sierra_Leone|2015_03_14@2015.26902059689">
-<date value="2015.26902059689" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296744|NA|Sierra_Leone|2015_03_24@2015.29634300126">
-<date value="2015.29634300126" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296600|NA|Sierra_Leone|2015_06_06@2015.47793190416">
-<date value="2015.47793190416" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296399|NA|Sierra_Leone|2015_06_08@2015.48339638504">
-<date value="2015.48339638504" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY366419|NA|Sierra_Leone|2015_03@2015.27175283733">
-<date value="2015.27175283733" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296700|NA|Sierra_Leone|2015_01_03@2015.08511979823">
-<date value="2015.08511979823" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296588|NA|Sierra_Leone|2015_01_30@2015.15889029004">
-<date value="2015.15889029004" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296538|NA|Sierra_Leone|2015_03_02@2015.23623371164">
-<date value="2015.23623371164" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296616|NA|Sierra_Leone|2015_02_23@2015.2166876839">
-<date value="2015.2166876839" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296635|NA|Sierra_Leone|2015_02_10@2015.18116855822">
-<date value="2015.18116855822" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296783|NA|Sierra_Leone|2015_02_23@2015.2166876839">
-<date value="2015.2166876839" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MF599509|NA|Sierra_Leone|2015_04_11@2015.3377469525">
-<date value="2015.3377469525" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296763|NA|Sierra_Leone|2015_04_19@2015.359604876">
-<date value="2015.359604876" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296608|NA|Sierra_Leone|2015_02_03@2015.16204287516">
-<date value="2015.16204287516" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296779|NA|Sierra_Leone|2015_01_06@2015.09331651955">
-<date value="2015.09331651955" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296330|NA|Sierra_Leone|2015_02_25@2015.22215216478">
-<date value="2015.22215216478" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296527|NA|Sierra_Leone|2015_03_16@2015.27448507776">
-<date value="2015.27448507776" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY401646|NA|Sierra_Leone|2015_06_08@2015.48339638504">
-<date value="2015.48339638504" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296301|NA|Sierra_Leone|2015_01_17@2015.12337116435">
-<date value="2015.12337116435" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296470|NA|Sierra_Leone|2015_01_19@2015.12883564523">
-<date value="2015.12883564523" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296592|NA|Sierra_Leone|2015_06_04@2015.47246742329">
-<date value="2015.47246742329" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296533|NA|Sierra_Leone|2015_01_03@2015.08511979823">
-<date value="2015.08511979823" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296571|NA|Sierra_Leone|2015_06_12@2015.49432534678">
-<date value="2015.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357815|NA|Sierra_Leone|2015_02_26@2015.22488440521">
-<date value="2015.22488440521" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296304|NA|Sierra_Leone|2015_01_31@2015.16162253047">
-<date value="2015.16162253047" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296836|NA|Sierra_Leone|2015_01_04@2015.08785203867">
-<date value="2015.08785203867" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296526|NA|Sierra_Leone|2015_02_12@2015.18663303909">
-<date value="2015.18663303909" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296564|NA|Sierra_Leone|2015_01_16@2015.12063892392">
-<date value="2015.12063892392" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296457|NA|Sierra_Leone|2015_02_07@2015.17297183691">
-<date value="2015.17297183691" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296528|NA|Sierra_Leone|2015_01_11@2015.10697772173">
-<date value="2015.10697772173" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296381|NA|Sierra_Leone|2015_01_09@2015.10151324086">
-<date value="2015.10151324086" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296385|NA|Sierra_Leone|2015_06_03@2015.46973518285">
-<date value="2015.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY401641|NA|Sierra_Leone|2015_06_12@2015.49432534678">
-<date value="2015.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296452|NA|Sierra_Leone|2015_03_07@2015.24989491383">
-<date value="2015.24989491383" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296451|NA|Sierra_Leone|2015_03_10@2015.25809163514">
-<date value="2015.25809163514" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296374|NA|Sierra_Leone|2015_03_09@2015.2553593947">
-<date value="2015.2553593947" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296354|NA|Sierra_Leone|2015_01_20@2015.13156788567">
-<date value="2015.13156788567" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296640|NA|Sierra_Leone|2015_02_24@2015.21941992434">
-<date value="2015.21941992434" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296300|NA|Sierra_Leone|2015_03_10@2015.25809163514">
-<date value="2015.25809163514" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296365|NA|Sierra_Leone|2015_01_14@2015.11517444304">
-<date value="2015.11517444304" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357835|NA|Sierra_Leone|2015_01_20@2015.13156788567">
-<date value="2015.13156788567" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296685|NA|Sierra_Leone|2015_06_01@2015.46427070198">
-<date value="2015.46427070198" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296664|NA|Sierra_Leone|2015_01_11@2015.10697772173">
-<date value="2015.10697772173" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296565|NA|Sierra_Leone|2015_03_26@2015.30180748214">
-<date value="2015.30180748214" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296346|NA|Sierra_Leone|2015_03_01@2015.23350147121">
-<date value="2015.23350147121" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296725|NA|Sierra_Leone|2015_03_10@2015.25809163514">
-<date value="2015.25809163514" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296695|NA|Sierra_Leone|2015_03_05@2015.24443043296">
-<date value="2015.24443043296" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296563|NA|Sierra_Leone|2015_01_10@2015.10424548129">
-<date value="2015.10424548129" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296329|NA|Sierra_Leone|2015_01_08@2015.09878100042">
-<date value="2015.09878100042" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357848|NA|Sierra_Leone|2015_02_03@2015.16204287516">
-<date value="2015.16204287516" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357819|NA|Sierra_Leone|2015_02_28@2015.23034888609">
-<date value="2015.23034888609" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296489|NA|Sierra_Leone|2015_03_21@2015.28814627995">
-<date value="2015.28814627995" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296364|NA|Sierra_Leone|2015_01_08@2015.09878100042">
-<date value="2015.09878100042" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296344|NA|Sierra_Leone|2015_01_15@2015.11790668348">
-<date value="2015.11790668348" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY366417|NA|Sierra_Leone|2015_03@2015.27175283733">
-<date value="2015.27175283733" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296491|NA|Sierra_Leone|2015_01_29@2015.1561580496">
-<date value="2015.1561580496" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296808|NA|Sierra_Leone|2015_01_01@2015.07965531736">
-<date value="2015.07965531736" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296297|NA|Sierra_Leone|2015_02_21@2015.21122320303">
-<date value="2015.21122320303" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296819|NA|Sierra_Leone|2015_05_27@2015.45838587642">
-<date value="2015.45838587642" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296461|NA|Sierra_Leone|2015_03_16@2015.27448507776">
-<date value="2015.27448507776" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296662|NA|Sierra_Leone|2015_01_29@2015.1561580496">
-<date value="2015.1561580496" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296799|NA|Sierra_Leone|2015_02_06@2015.17023959647">
-<date value="2015.17023959647" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296829|NA|Sierra_Leone|2015_03_03@2015.23896595208">
-<date value="2015.23896595208" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296785|NA|Sierra_Leone|2015_01_31@2015.16162253047">
-<date value="2015.16162253047" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296839|NA|Sierra_Leone|2015_01_12@2015.10970996217">
-<date value="2015.10970996217" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296375|NA|Sierra_Leone|2015_01_26@2015.14796132829">
-<date value="2015.14796132829" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296711|NA|Sierra_Leone|2015_03_07@2015.24989491383">
-<date value="2015.24989491383" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296643|NA|Sierra_Leone|2015_02_27@2015.22761664565">
-<date value="2015.22761664565" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296294|NA|Sierra_Leone|2015_01_29@2015.1561580496">
-<date value="2015.1561580496" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296418|NA|Sierra_Leone|2015_03_07@2015.24989491383">
-<date value="2015.24989491383" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296431|NA|Sierra_Leone|2015_01_03@2015.08511979823">
-<date value="2015.08511979823" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296657|NA|Sierra_Leone|2015_02_25@2015.22215216478">
-<date value="2015.22215216478" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296831|NA|Sierra_Leone|2015_04_29@2015.38692728037">
-<date value="2015.38692728037" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296466|NA|Sierra_Leone|2015_02_26@2015.22488440521">
-<date value="2015.22488440521" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296674|NA|Sierra_Leone|2015_02_02@2015.15931063472">
-<date value="2015.15931063472" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296450|NA|Sierra_Leone|2015_04_23@2015.37053383775">
-<date value="2015.37053383775" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296380|NA|Sierra_Leone|2015_01_07@2015.09604875998">
-<date value="2015.09604875998" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296382|NA|Sierra_Leone|2015_01_20@2015.13156788567">
-<date value="2015.13156788567" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357825|NA|Sierra_Leone|2015_01_13@2015.11244220261">
-<date value="2015.11244220261" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357829|NA|Sierra_Leone|2015_01_17@2015.12337116435">
-<date value="2015.12337116435" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296723|NA|Sierra_Leone|2015_04_15@2015.34867591425">
-<date value="2015.34867591425" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296682|NA|Sierra_Leone|2015_03_19@2015.28268179908">
-<date value="2015.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT357857|NA|Sierra_Leone|2015_03_10@2015.25809163514">
-<date value="2015.25809163514" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296782|NA|Sierra_Leone|2015_03_12@2015.26355611602">
-<date value="2015.26355611602" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296426|NA|Sierra_Leone|2015_06_06@2015.47793190416">
-<date value="2015.47793190416" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296761|NA|Sierra_Leone|2014_12_30@2015.00504413619">
-<date value="2015.00504413619" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU296353|NA|Sierra_Leone|2015_06_14@2015.49978982766">
-<date value="2015.49978982766" direction="forwards" units="years"/>
 </taxon>
 	</taxa>
-	
-	
+
+
 
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
 	<!-- ntax=50 nchar=13154                                                     -->
@@ -1227,7 +1027,7 @@
 	<patterns id="patterns" from="1" strip="false">
 		<alignment idref="alignment"/>
 	</patterns>
-	
+
 
 	<!-- A prior assumption that the population size has grown exponentially     -->
 	<!-- throughout the time spanned by the genealogy.                           -->
@@ -1239,14 +1039,14 @@
 			<parameter id="exponential.growthRate" value="0.0"/>
 		</growthRate>
 	</exponentialGrowth>
-	
+
 
 	<!-- Generate a random starting tree under the coalescent process            -->
 	<coalescentSimulator id="startingTree">
 		<taxa idref="taxa"/>
 		<exponentialGrowth idref="exponential"/>
 	</coalescentSimulator>
-	
+
 
 	<!-- Generate a tree model                                                   -->
 	<treeModel id="treeModel">
@@ -1271,7 +1071,7 @@
 	<tmrcaStatistic id="age(root)" absolute="true">
 		<treeModel idref="treeModel"/>
 	</tmrcaStatistic>
-	
+
 
 	<!-- Generate a coalescent likelihood                                        -->
 	<coalescentLikelihood id="coalescent">
@@ -1282,7 +1082,7 @@
 			<treeModel idref="treeModel"/>
 		</populationTree>
 	</coalescentLikelihood>
-	
+
 
 	<!-- The strict clock (Uniform rates across branches)                        -->
 	<strictClockBranchRates id="branchRates">
@@ -1290,12 +1090,12 @@
 			<parameter id="clock.rate" value="5E-3" lower="0.0"/>
 		</rate>
 	</strictClockBranchRates>
-	
+
 	<rateStatistic id="meanRate" name="meanRate" mode="mean" internal="true" external="true">
 		<treeModel idref="treeModel"/>
 		<strictClockBranchRates idref="branchRates"/>
 	</rateStatistic>
-	
+
 
 	<!-- The HKY substitution model (Hasegawa, Kishino & Yano, 1985)             -->
 	<HKYModel id="hky">
@@ -1325,7 +1125,7 @@
 	<statistic id="mu" name="mu">
 		<siteModel idref="siteModel"/>
 	</statistic>
-	
+
 
 	<!-- Likelihood for tree given sequence data                                 -->
 	<treeDataLikelihood id="treeLikelihood" useAmbiguities="false">
@@ -1336,7 +1136,7 @@
 		<treeModel idref="treeModel"/>
 		<strictClockBranchRates idref="branchRates"/>
 	</treeDataLikelihood>
-	
+
 
 	<!-- Define operators                                                        -->
 	<operators id="operators" optimizationSchedule="default">
@@ -1379,10 +1179,10 @@
 			<parameter idref="exponential.growthRate"/>
 		</randomWalkOperator>
 	</operators>
-	
+
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="50000000" autoOptimize="true">
+	<mcmc id="mcmc" chainLength="100000000" autoOptimize="true">
 		<joint id="joint">
 			<prior id="prior">
 				<exponentialPrior mean="0.5" offset="0.0">
@@ -1398,8 +1198,8 @@
 					<parameter idref="exponential.growthRate"/>
 				</laplacePrior>
 				<coalescentLikelihood idref="coalescent"/>
-				
-				
+
+
 				<strictClockBranchRates idref="branchRates"/>
 			</prior>
 			<likelihood id="likelihood">
@@ -1428,7 +1228,7 @@
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="5000" fileName="2015-2015.5_sierra_leone_max200_sc_iso.log" overwrite="false">
+		<log id="fileLog" logEvery="10000" fileName="2015-2015.5_sierra_leone_max200_sc_iso.log" overwrite="false">
 			<joint idref="joint"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -1445,11 +1245,11 @@
 			<treeDataLikelihood idref="treeLikelihood"/>
 			<strictClockBranchRates idref="branchRates"/>
 			<coalescentLikelihood idref="coalescent"/>
-			
+
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="5000" nexusFormat="true" fileName="2015-2015.5_sierra_leone_max200_sc_iso.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="10000" nexusFormat="true" fileName="2015-2015.5_sierra_leone_max200_sc_iso.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<strictClockBranchRates idref="branchRates"/>
@@ -1457,7 +1257,7 @@
 			<joint idref="joint"/>
 		</logTree>
 	</mcmc>
-	
+
 
 	<!-- START Marginal Likelihood Estimator                                     -->
 
@@ -1528,5 +1328,5 @@
 			<mcmc idref="mcmc"/>
 		</property>
 	</report>
-	
+
 </beast>

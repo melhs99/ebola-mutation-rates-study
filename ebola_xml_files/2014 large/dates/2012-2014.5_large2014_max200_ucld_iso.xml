@@ -7,410 +7,278 @@
 <!--       David Geffen School of Medicine, University of California, Los Angeles-->
 <!--       http://beast.community/                                           -->
 <beast version="1.10.4">
-	
+
 
 	<!-- The list of taxa to be analysed (can also include dates/ages).          -->
 	<!-- ntax=50                                                                 -->
 	<taxa id="taxa">
 	  <taxon id="KX000398|NA|Guinea|2014_03_10@2014.25809163514">
-<date value="2014.25809163514" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KX000399|NA|Guinea|2014_03_10@2014.25809163514">
-<date value="2014.25809163514" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KX000400|NA|Guinea|2014_03_19@2014.28268179908">
-<date value="2014.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT013254|NA|Guinea|2014_03_19@2014.28268179908">
-<date value="2014.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT013255|NA|Guinea|2014_03_19@2014.28268179908">
-<date value="2014.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MG572229|NA|Guinea|2014_03_19@2014.28268179908">
-<date value="2014.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MG572232|NA|Guinea|2014_03_19@2014.28268179908">
-<date value="2014.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT013256|NA|Guinea|2014_03_20@2014.28541403951">
-<date value="2014.28541403951" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT013257|NA|Guinea|2014_03_20@2014.28541403951">
-<date value="2014.28541403951" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MG572230|NA|Guinea|2014_03_20@2014.28541403951">
-<date value="2014.28541403951" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MG572233|NA|Guinea|2014_03_20@2014.28541403951">
-<date value="2014.28541403951" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT013258|NA|Guinea|2014_03_17@2014.2772173182">
-<date value="2014.2772173182" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KT013259|NA|Guinea|2014_03_17@2014.2772173182">
-<date value="2014.2772173182" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MG572231|NA|Guinea|2014_03_17@2014.2772173182">
-<date value="2014.2772173182" direction="forwards" units="years"/>
 </taxon>
 <taxon id="MG572234|NA|Guinea|2014_03_17@2014.2772173182">
-<date value="2014.2772173182" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817179|NA|Guinea|2014_03_28@2014.30727196301">
-<date value="2014.30727196301" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817180|NA|Guinea|2014_03_28@2014.30727196301">
-<date value="2014.30727196301" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817181|NA|Guinea|2014_03_31@2014.31546868432">
-<date value="2014.31546868432" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817182|NA|Guinea|2014_03_31@2014.31546868432">
-<date value="2014.31546868432" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817183|NA|Guinea|2014_03_31@2014.31546868432">
-<date value="2014.31546868432" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817184|NA|Guinea|2014_03_31@2014.31546868432">
-<date value="2014.31546868432" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817185|NA|Guinea|2014_03_31@2014.31546868432">
-<date value="2014.31546868432" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817186|NA|Guinea|2014_03_30@2014.31273644388">
-<date value="2014.31273644388" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817187|NA|Guinea|2014_03_27@2014.30453972257">
-<date value="2014.30453972257" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817188|NA|Guinea|2014_03_27@2014.30453972257">
-<date value="2014.30453972257" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817189|NA|Guinea|2014_03_27@2014.30453972257">
-<date value="2014.30453972257" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817190|NA|Guinea|2014_04_02@2014.31315678857">
-<date value="2014.31315678857" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817191|NA|Guinea|2014_04_02@2014.31315678857">
-<date value="2014.31315678857" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817192|NA|Guinea|2014_04_03@2014.315889029">
-<date value="2014.315889029" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817193|NA|Guinea|2014_04_02@2014.31315678857">
-<date value="2014.31315678857" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817195|NA|Guinea|2014_04_04@2014.31862126944">
-<date value="2014.31862126944" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817196|NA|Guinea|2014_04_07@2014.32681799075">
-<date value="2014.32681799075" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817197|NA|Guinea|2014_04_10@2014.33501471206">
-<date value="2014.33501471206" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817198|NA|Guinea|2014_04_11@2014.3377469525">
-<date value="2014.3377469525" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817199|NA|Guinea|2014_04_12@2014.34047919294">
-<date value="2014.34047919294" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817200|NA|Guinea|2014_04_13@2014.34321143338">
-<date value="2014.34321143338" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817201|NA|Guinea|2014_04_18@2014.35687263556">
-<date value="2014.35687263556" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817202|NA|Guinea|2014_04_22@2014.36780159731">
-<date value="2014.36780159731" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817203|NA|Guinea|2014_04_28@2014.38419503993">
-<date value="2014.38419503993" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817204|NA|Guinea|2014_05_01@2014.38734762505">
-<date value="2014.38734762505" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817205|NA|Guinea|2014_05_07@2014.40374106768">
-<date value="2014.40374106768" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817206|NA|Guinea|2014_05_07@2014.40374106768">
-<date value="2014.40374106768" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817207|NA|Guinea|2014_05_10@2014.41193778899">
-<date value="2014.41193778899" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817208|NA|Guinea|2014_05_11@2014.41467002942">
-<date value="2014.41467002942" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817209|NA|Guinea|2014_05_11@2014.41467002942">
-<date value="2014.41467002942" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817210|NA|Guinea|2014_05_14@2014.42286675074">
-<date value="2014.42286675074" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817211|NA|Guinea|2014_05_18@2014.43379571248">
-<date value="2014.43379571248" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817212|NA|Guinea|2014_05_21@2014.4419924338">
-<date value="2014.4419924338" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817213|NA|Guinea|2014_05_21@2014.4419924338">
-<date value="2014.4419924338" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817214|NA|Guinea|2014_05_22@2014.44472467423">
-<date value="2014.44472467423" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817215|NA|Guinea|2014_05_24@2014.45018915511">
-<date value="2014.45018915511" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817216|NA|Guinea|2014_05_24@2014.45018915511">
-<date value="2014.45018915511" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817217|NA|Guinea|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817218|NA|Guinea|2014_06_01@2014.46427070198">
-<date value="2014.46427070198" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817219|NA|Guinea|2014_06_05@2014.47519966372">
-<date value="2014.47519966372" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817220|NA|Guinea|2014_06_05@2014.47519966372">
-<date value="2014.47519966372" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817221|NA|Guinea|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817222|NA|Guinea|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817223|NA|Guinea|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817224|NA|Guinea|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817225|NA|Guinea|2014_06_10@2014.48886086591">
-<date value="2014.48886086591" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817226|NA|Guinea|2014_06_10@2014.48886086591">
-<date value="2014.48886086591" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817194|NA|Liberia|2014_04_01@2014.31042454813">
-<date value="2014.31042454813" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034550|NA|Sierra_Leone|2014_05_25@2014.45292139554">
-<date value="2014.45292139554" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034549|NA|Sierra_Leone|2014_05_25@2014.45292139554">
-<date value="2014.45292139554" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034551|NA|Sierra_Leone|2014_05_26@2014.45565363598">
-<date value="2014.45565363598" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034552|NA|Sierra_Leone|2014_05_26@2014.45565363598">
-<date value="2014.45565363598" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233035|NA|Sierra_Leone|2014_06_02@2014.46700294241">
-<date value="2014.46700294241" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233036|NA|Sierra_Leone|2014_06_02@2014.46700294241">
-<date value="2014.46700294241" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233037|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233038|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233039|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233040|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233041|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233042|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233043|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233044|NA|Sierra_Leone|2014_06_04@2014.47246742329">
-<date value="2014.47246742329" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233045|NA|Sierra_Leone|2014_06_04@2014.47246742329">
-<date value="2014.47246742329" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233046|NA|Sierra_Leone|2014_06_06@2014.47793190416">
-<date value="2014.47793190416" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233047|NA|Sierra_Leone|2014_06_08@2014.48339638504">
-<date value="2014.48339638504" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233048|NA|Sierra_Leone|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817227|NA|Sierra_Leone|2014_06_13@2014.49705758722">
-<date value="2014.49705758722" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817228|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034553|NA|Sierra_Leone|2014_05_27@2014.45838587642">
-<date value="2014.45838587642" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034554|NA|Sierra_Leone|2014_05_27@2014.45838587642">
-<date value="2014.45838587642" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034555|NA|Sierra_Leone|2014_06_06@2014.47793190416">
-<date value="2014.47793190416" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034556|NA|Sierra_Leone|2014_05_26@2014.45565363598">
-<date value="2014.45565363598" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034557|NA|Sierra_Leone|2014_05_27@2014.45838587642">
-<date value="2014.45838587642" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034558|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034559|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034560|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034561|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034562|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034563|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233049|NA|Sierra_Leone|2014_05_31@2014.46931483817">
-<date value="2014.46931483817" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233050|NA|Sierra_Leone|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233051|NA|Sierra_Leone|2014_06_11@2014.49159310635">
-<date value="2014.49159310635" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233052|NA|Sierra_Leone|2014_06_13@2014.49705758722">
-<date value="2014.49705758722" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233053|NA|Sierra_Leone|2014_06_05@2014.47519966372">
-<date value="2014.47519966372" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233054|NA|Sierra_Leone|2014_06_07@2014.4806641446">
-<date value="2014.4806641446" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233055|NA|Sierra_Leone|2014_06_07@2014.4806641446">
-<date value="2014.4806641446" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233056|NA|Sierra_Leone|2014_06_07@2014.4806641446">
-<date value="2014.4806641446" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233057|NA|Sierra_Leone|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233058|NA|Sierra_Leone|2014_06_10@2014.48886086591">
-<date value="2014.48886086591" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233059|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233060|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233061|NA|Sierra_Leone|2014_06_10@2014.48886086591">
-<date value="2014.48886086591" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233062|NA|Sierra_Leone|2014_06_11@2014.49159310635">
-<date value="2014.49159310635" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233063|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233064|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233065|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233066|NA|Sierra_Leone|2014_06_13@2014.49705758722">
-<date value="2014.49705758722" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233069|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233070|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233071|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233072|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233073|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233074|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233075|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233076|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233116|NA|Sierra_Leone|2014_06_04@2014.47246742329">
-<date value="2014.47246742329" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233117|NA|Sierra_Leone|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233118|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KU978801|NA|Guinea|2014_03_26@2014.30180748214">
-<date value="2014.30180748214" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KP096420|NA|Guinea|2014_03@2014.27175283733">
-<date value="2014.27175283733" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KP096421|NA|Guinea|2014_03@2014.27175283733">
-<date value="2014.27175283733" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KP096422|NA|Guinea|2014_03@2014.27175283733">
-<date value="2014.27175283733" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY425657|NA|Guinea|2014_03_19@2014.28268179908">
-<date value="2014.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY425645|NA|Guinea|2014_03_19@2014.28268179908">
-<date value="2014.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY425654|NA|Guinea|2014_03_19@2014.28268179908">
-<date value="2014.28268179908" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY425633|NA|Guinea|2014_03_20@2014.28541403951">
-<date value="2014.28541403951" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KY425648|NA|Guinea|2014_03_20@2014.28541403951">
-<date value="2014.28541403951" direction="forwards" units="years"/>
 </taxon>
 	</taxa>
-	
-	
+
+
 
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
 	<!-- ntax=50 nchar=13154                                                     -->
@@ -813,15 +681,15 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 ---------------------------------------------gaataactatgaggaagattaataattttcct-ctcattgaaattta-tatcgg-aa-tttaaattgaaattgttactgtaatcatacctggttt-------------g-tttcagagccatatcaccaagatagagaacaacctaggtctccggagggggcaa-gggcatcagtgtgctcagttgaaaatcccttgtcaacatctaggccttatcacatcacaagttccgccttaaactctgcagggtgatccaacaaccttaatagcaacattattgttaaaggacagcattagttcacagtcaaacaagcaagattgagaattaactttgattttgaacctgaacacccagaggactggagactcaacaaccctaaagcctggggtaaaacattagaaatag-tttaaagacaaattgctcggaatcacaaaattccgagtatggattctcgtcctcagaaagtctggatgacgccgagtctcactgaatctgacatggattaccacaagatcttgacagcaggtctgtccgttcaacaggggattgttcggcaaagagtcatcccagtgtatcaagtaaacaatcttgaggaaatttgccaacttatcatacaggcctttgaagctggtgttgattttcaagagagtgcggacagtttccttctcatgctttgtcttcatcatgcgtaccaaggagattacaaacttttcttggaaagtggcgcagtcaagtatttggaagggcacgggttccgttttgaagtcaagaagcgtgatggagtgaagcgccttgaggaattgctgccagcagtatctagtgggagaaacattaagagaacacttgctgccatgccggaagaggagacgactgaagctaatgccggtcagttcctctcctttgcaagtctattccttccgaaattggtagtaggagaaaaggcttgccttgagaaggttcaaaggcaaattcaagtacatgcagagcaaggactgatacaatatccaacagcttggcaatcagtaggacacatgatggtgattttccgtttgatgcgaacaaattttttgatcaaatttcttctaatacaccaagggatgcacatggttgccggacatgatgccaacgatgctgtgatttcaaattcagtggctcaagctcgtttttcaggtc-tattgattgtcaaaacagtacttgatcatatcctacaaaagacagaacgaggagttcgtctccatcctcttgcaaggaccgccaaggtaaaaaatgaggtgaactccttcaaggctgcactcagctccctggccaagcatggagagtatgctcctttcgcccgacttttgaacctttctggagtaaataatcttgagcatggtcttttccctcaac-tgtcggcaattgcactcggagtcgccacagcccacgggagcaccctcgcaggagtaaatgttggagaacagtatcaacagctcagagaggcagccactgaggctgagaagcaactccaacaatatgcggagtctcgtgaacttgaccatcttggacttgatgatcaggaaaagaaaattcttatgaacttccatcagaaaaagaacgaaatcagcttccagcaaacaaacgcgatggtaactctaagaaaagagcg-cctggccaagctgacagaagctatcactgctgcatcactgcccaaaacaagtggacattacgatgatgatgacgacattccctttccaggacccatcaatgatgacgacaatcctggccatcaagatgatgatccgactgactcacaggatacgaccattcccgatgtggtagttgatcccgatgatggaggctacggcgaataccaaagttactcggaaaacggcatgagtgcaccagatgacttggtcctattcgatctagacgaggacgacgaggacaccaagccagtgcctaacagatcgaccaagggtggacaacagaaaaacagtcaaaagggccagcatacagagggcagacagacacaatccacgccaactcaaaacgtcacaggccctcgcagaacaatccaccatgccagtgctccactcacggacaatgacagaagaaacgaaccctccggctcaaccagccctcgcatgctgaccccaatcaacgaagaggcagacccactggacgatgccgacgacgagacgtctagccttccgcccttagagtcagatgatgaagaacaggacagggacggaacttctaaccgcacacccactgtcgccccaccggctcccgtatacagagatcactccgaaaagaaagaactcccgcaagatgaacaacaagatcaggaccacattcaagaggccaggaaccaagacagtgacaacacccagccagaacattcttttgaggagatgtatcgccacattctaagatcacaggggccatttgatgccgttttgtattatcatatgatgaaggatgagcctgtagttttcagtaccagtgatggtaaagagtacacgtatccggactcccttgaagaggaatatccaccatggctcactgaaaaagaggccatgaatgatgagaatagatttgttacactggatggtcaacaattttattggccagtaatgaatcacaggaataaattcatggcaatcctgcaacatcatcagtgaatgagcatgtaataatgggatga-tttaatcgacaaatagctaacattaaatagtcaaggaacgcaaacaggaagaatttttgatgtctaaggtgtgaattattatcacaataaaagtgattcttagttttgaatttaaagctagcttattattactagccgtttttcaaagttcaa-tttgagtcttaatgcaaataagcgttaagccacagttatagccataatggtaactcaatatcttagccagcgatttatctaaattaaattacattatgcttttataacttacctactagcctgcccaacatttacacgatcgttttataattaagaaaaaactaatgatgaagatt-aaaaccttcatcatccttacgtcaattgaattctctagcactagaagcttattgtcttcaatg-taaaagaaaagctggcctaacaagatgacaactagaacaaagggcaggggccatactgtggccacgactcaaaacgacagaatgccaggccctgagctttcgggctggatctctgagcagctaatgaccggaaggattcctgtaaacgacatcttctgtgatattgagaacaatccaggattatgctacgcatcccaaatgcaacaaacgaagccaaacccgaagatgcgcaacagtcaaacccaaacggacccaatttgcaatcatag-ttttgaggaggtagtacaaacattggcttcattggctactgttgtgcaacaacaaaccatcgcatcagaatcattagaacaacgcattacgagtcttgagaatggtctaaagccagtttatgatatggcaaaaacaatctcctcattgaacagggtttgtgctgagatggttgcaaaatatgatcttctggtgatgacaaccggtcgggcaacagcaaccgctgcggcaactgaggcttattgggctgaacatggtcaaccaccacctggaccatcactttatgaagaaagtgcgattcggggtaagattgaatctagagatgagactgtccctcaaagtgttagggaggcattcaacaatctagacagtaccacttcactaactgaggaaaattttgggaaacctgacatttcggcaaaggatttgagaaacattatgtatgatcacttgcctggttttggaactgctttccaccaattagtacaagtgatttgtaaattgggaaaagatagcaattcattggacattattcatgctgagttccaggccagcctggctgaaggagactcccctcaatgtgccctaattcaaattacaaaaagagttccaatcttccaagatgctgctccacctgtcatccacatccgctctcgaggtgacattccccgagcttgccagaagagcttgcgtccagtcccaccatcacccaagattgatcgaggttgggtatgtgtttttcagcttcaagatggtaaaacacttggactcaaaatttgagccaatctcttttccctccgaaagaggcaactaatagcagaggcttcaactgctgaactatagggtatgttacattaatgatacacttgtgagtatcagccctagataatataagtcaattaaacaaccaagataaaattgttcatatcccgctagcagctttaaagataaatgtaataggagctatacctctgacagtattataattaattgttattaagtaacccaaacc-aaaaatgatgaagattaagaaaaacctacctcgactgagagagtgttttttcattaaccttca-tcttgtaaacgttgagcaaaattgttaaaaatatgaggcgggttatattgcctactgctcctcctgaatatatggaggccatataccctgccaggtcaaattcaacaattgctaggggtggcaacagcaatacaggcttcctgacaccggagtcagtcaatggagacactccatcgaatccactcaggccaattgctgatgacaccatcgaccatgccagccacacaccaggcagtgtgtcatcagcattcatcctcgaagctatggtgaatgtcatatcgggccccaaagtgctaat-gaagcaaattccaatttggcttcctctaggtgtcgctgatcaaaagacctacagctttgactcaactacggccgccatcatgcttgcttcatatactatcacccatttcggcaaggcaaccaatccgcttgtcagagtcaatcggctgggtcctggaatcccggatcaccccctcaggctcctgcgaattggaaaccaggctttcctccaggagttcgttcttccaccagtccaactaccccagtatttcacctttgatttgacagcactcaaactgatcactcaaccactgcctgctgcaacatggaccgatgacactccaactggatcaaatggagcgttgcgtccaggaatttcatttcatccaaaacttcgccccattcttttacccaacaaaagtgggaagaaggggaacagtgccgatctaacatctccggagaaaatccaagcaataatgacttcactccaggactttaagatcgttccaattgatccaaccaaaaatatcatgggtatcgaagtgccagaaactctggtccacaagctgaccggtaagaaggtgacttccaaaaatggacaaccaatcatccctgttcttttgccaaagtacattgggttggacccggtggctccaggagacctcaccatggtaatcacacaggattgtgacacgtgtcattctcctgcaagtcttccagctgtggttgagaagtaattgcaataattgactcagatccagttttacagaatcttctcagggatagtgataacatc-tttttaataatccgtctactagaagagatacttctaattgatcaatatactaaaggtgctttacaccattgtctc-ttttctctcctaaatgtagagcttaacaaaagactcataatatacctgtttttaaaagattgattgatgaaagatc--atgactaataacattacaaacaatcctactataatcaat-acggtgattcaaatgtcaatctttctcattgcacatactctttgtccttatcctcaaattgcctacatgcttacatctgaggacagccagtgtgacttggattggagatgtggaggaaaaatcggggcccatttctaagttgttcacaatctaagtacagacattgctcttctaattaagaaaaaatcggcgatgaagattaagccgacagtgagcgtaatcttcatctctcttagattatttgtcttccagagtaggggtcatcaggtccttttcaattggataaccaaaataagcttcactagaaggatattgtgaggcgacaacacaatgggtgttacaggaatattgcagttacctcgtgatcgattcaagaggacatcattctttctttgggtaattatccttttccaaagaacattttccatcccgcttggagttatccacaatagtacattacaggttagtgatgtcgacaaactagtttgtcgtgacaaactgtcatccacaaatcaattgagatcagttggactgaatctcgaggggaatggagtggcaactgacgtgccatctgcgactaaaagatggggcttcaggtccggtgtcccaccaaaggtggtcaattatgaagctggtgaatgggctgaaaactgctacaatcttgaaatcaaaaaacctgacgggagtgagtgtctaccagcagcgccagacgggattcggggcttcccccggtgccggtat-gtgcacaaagtatcaggaacgggaccatgtgccggagactttgccttccacaaagagggtgctttcttcctgtatgatcgacttgcttccacagttatctaccgaggaacgactttcgctgaaggtgtcgttgcatttctgatactgccccaagctaagaaggacttcttcag-ctcacaccccttgagagagccggtcaa-tgcaacggaggacccgtcgagtggctattattctaccacaattagatatcaggctaccggttttggaactaatgagacagagtacttgttcgaggttgacaatttgacctacgtccaacttgaatcaagattcacaccacagtttctgctccagctgaatgagacaatatatgcaagtgggaagaggagcaacaccacgggaaaactaatttggaaggtcaaccccgaaattgatacaacaatcggggagtgggccttctgggaaactaaaaaaa-cctcactagaaaaattcgcagtgaagagttgtctttcacagctgtatcaaacggacccaaaaacatcagtggtcagagtccggcgcgaacttcttccgacccagagaccaacacaacaaatgaagaccacaaaatcatggcttcagaaaattcctctgcaatggttcaagtgcacagtcaaggaaggaaagctgcagtgtcgcatctgacaacccttgccacaatctccacgagtcctcaacctcccacaaccaaaacaggtccggacaac-agcacccataatacacccgtgtataaacttgacat-ctctgagg-caactcaagttggacaacatcaccgtag----------------------------------------------------------------------------------------------agcagacaacgacagcacagcctccgacactccccccgccacgaccgcagccggacccttaaaagcagagaacaccaacacgagt-aag-agcgctgactccctggacctcgccaccacgacaagcccccaaaactacagcgagactgctggcaacaacaacactcatcaccaagataccggagaagagagtgccagcagcgggaagctaggcttaattaccaatactattgctggagtagcaggactgatcacaggcgggagaaggactcgaagagaagtaattgtcaatgctcaacccaaatgcaaccccaatttacattactggactactcaggatgaaggtgctgcaatcggattggcctggataccatatttcgggccagcagccgaaggaatttacacagaggggctaatgcacaaccaaaatggtttaatctgtgggttgaggcagctggccaacgaaacgactcaagctctccaactgttcctgagagccacaactgagctgcgaaccttttcaatcctcaaccgtaaggcaattgacttcctgctgcagcgatggggtggcacatgccacattttgggaccggactgctgtatcgaaccacatgattggaccaagaacataacagacaaaattgatcagattattcatgattttgttgataaaacccttccggaccagggggacaa-tgacaattggtggacaggatggagacaatggataccggcaggtattggagttacaggtgttataattgcagttatcgctttattctgtatatgcaaatttgtcttttagtctttcttcagattgtttcacggcaaaactcaacctcaaatcaatgaaactaggatttaattatatgaatcacttgaatctaagattacttgacaaatgataacataatacactggagcttcaaacatagccaatgtgattctaactcctttaaactcacagttaatcataaacaaggtttgacatcaatctagctatatctttaagaatgataaacttgatgaagattaag-aaaaaggtaatctttcgattatctttagtcttcatccttgattctacaatcatgacagttgtctttaatgaaaaaggaaaaaagcctttttattaagttgtaataatcagatctgcaaaccggtagaatttagttgtaacctaacacacacaaagcattggtaaaaaagtcaatagaaatttaaacagtgagtgcagacaactcttaaatggaagcttcatatgagagaggacgcccccgagctg-ccagacagcattcaagggatggacacgaccaccatgttcgagcacgatcatcatccagagagaattatcgaggtgagtaccgtcaatcaaggagcgcctcacaagtgcgcgttcctactgtatttcataagaagagagttgaaccattaacagttcctccagcacctaaagacatatgtccgaccttgaaaaaaggatttttgtgtgacagtagtttttgcaaaaaagaccaccagttagaaagtttaactg-atagggaattactcctactaatcgcccgtaagacttgtggatcagtagaacaacaattaaatataactgcacccaaggactcgcgcttagcaaatccaacggctgatgatttccagcaagaggaaggtccaaaaattaccttgttgacactgatcaagacggcagaacactgggcgagacaagacatccgaaccatagaggattccaaattaagggcattgttaactctatgtgctgtgatgacgaggaaattctcaaaatcccagctgagtcttttgtgtgagacacacctaaggcgcgaagggcttgggcaagatcaggcagaacccgttctcgaagtatatcaacgattacacagtgataaaggaggcagttttgaagctgcactatggcaacaatgggaccgacaatccctaattatgtttatcactgcattcttgaatatcgctctccagttaccgtgtgaaagctctgctgtcgttgtttcagggttaagaacattggttcctcaatcagataatgaggaagcttcaaccaacccggggacatgctcatggtctgatgagggtaccccttaataaggctgactaaaacactatataaccttctacttgatcacaatactccgtatacctatcatcatatatttaatcaagacgatatcctttaaaac-ttattcagtactataatcactctca-tttcaaattgataagatatgcataattgccttaatatataaagaggtatgatataacccaaacattgaccaaagaaaatcataatctcgtatcgctcgcaatataacctgccaagcatacctcttgcacaaagtgattcttgtacacaaataatgtttgactctacaggaggtagcaacgatccatctcatc-aaaaaataagtattttatgatttactaatgatctcttaaaatattaagaaaaactgacggaacataaattctttctgc-ttcaagttgtggaggaggtctatggtattcgctattgttatattacaatcaataacaagcttg------taaaaatattgttcttgtttcaggaggtatattgtgaccggaaaagctaaactaatgatgaagattaatgcggaggtctgatgagaataaacctcattattcagattaggccccaagaggcattcttcatctccttttagcaaaatactatttcaggatagtccagctagtgacacgt-cttttagctgtataccagttgcccctgagatacgccacaaaagtgtctctgagctaaagtggtctgtacacatctcatacattgtattaggggcaataatatctaattgaacttagccatttaaaa-tttagtgcataaatctgggctaactccaccaggtcaact-ccattggctgaaaagaagcccacctacaacgaacattactttgagcgccctcacaatt-aaaaaataagagcgtcgttccaacaatcgagcgcaaggttacaaggttgaactgagagtgtctagacaacaaaatatcgatactccagacaccaagcaagacctgag--aaaaaaccatggccaaagctacgggacgatacaatctaatatcgcccaaaaaggacctggagaaaggggttgtcttaagcgacctctgtaacttcttagttagtcaaactattcaagggtggaaagtttattgggctggtattgagtttgatgtgactcacaaaggaatggccctattgcatagactgaaaactaatgactttgcccctgcatggtcaatgacaaggaacctatttccccattta-tttcaaaatccgaattccactattgaatcaccgctgtgggcactgagagtcatccttgcagcagggatacaggaccagttaattgaccagtctttgattgaacccttagcaggagcccttggtctgatctctgattggctgctaacaaccaacactaaccatttcaacatgcgaacacaacgtgtcaaggaacaattgagcctaaaaatgctgtcgttgattcgatccaatattctcaagtttattaacaaattggatgctctacatgtcgtgaactacaatggattattgagcagtattgaaattggaactcaaaatcatacaatcatcataactcgaactaacatgggttttctggtggagctccaagaacccgacaaatcggcaatgaaccgcaagaagcctgggccggcgaaattttccctccttcatgagtccacactgaaagcatttacacaagggtcctcgacacgaatgcaaagtttaattcttgaattcaatagctctcttgctatctaactaagatggaatacttcatattgggctaactcatatatgctgactcaatagttaacttgacatctctgccttcataatcagatatataagcataataaataaatactcatatttcttgataatttgtttaaccacagataaatcctcactgtaagccagcttccaagttgacacccttacaaaaaccaggactcagaatccctcaaataagagattccaagacaacatcatagaattgctttat--tatattaataagcattttatcactagaaatccaatatacgaaatggttaattgtaactaaacccgcaggtcatgtgtgttagg-tttcacaaattatatatattactaactccatactcgtaactaacattagataagtaggttaagaaaaaagcttgaggaagattaag-aaaaactgcttattgggtctttccgtgttttagatgaagcagttgacattcttcctcttgatattaaatggctacacaacatacccaatacccagacgccaggttatcatcaccaattgtattggaccaatgtgaccttgtcactagagcttgcgggttgtattcatcatactcccttaatccgcaactacgcaactgtaaactcccgaaacatatataccgtttaaaatatgatgtaactgttaccaagttcttaagtgatgtaccagtggcgacattgcccatagatttcatagtcccaattcttctcaaggcactatcaggcaatgggttctgtcctgttgagccgcggtgccaacagttcttagatgaaattattaagtacacaatgcaagatgctctcttcctgaaatattatctcaaaaatgtgggtgctcaagaagactgtgttgatgaccactttcaagaaaaaatcttatcttcaattcagggcaatgaatttttacatcaaatgtttttctggtatgacctggctattttaactcgaaggggtagattaaatcgaggaaactctagatcaacgtggtttgttcatgatgatttaatagacatcttaggctatggggactatgttttttggaagatcccaatttcactgttaccactgaacacacaaggaatcccccatgctgctatggattggtatcagacatcagtattcaaagaagcggttcaagggcatacacacattgtttctgtttctactgccgatgtcttgataatgtgcaaagatttaattacatgtcgattcaacacaactctaatctcaaaaatagcagaggttgaggacccagtttgctctgattatcccaattttaagattgtgtctatgctttaccagagcggagattacttactctccatattagggtctgatgggtataaaatcattaagtttctcgaaccattgtgcttggctaaaattcaattgtgctcaaagtacaccgagaggaagggccgattcttaacacaaatgcatttagctgtaaatcacaccctggaagaaattacagaaatacgtgcactaaagccttcacaggctcacaagatccgtgaattccatagaacattgataaggctggagatgacgccacaacaactttgtgagcta-ttttccatacaaaaacactgggggcatcctgtgctacatagtgaaacagcaatccaaaaagtt-aaaaaacatgctacggtgctaaaagcattacgccctatcgtga-ttttcgagacatattgtg-tttttaaatatagcattgcaaaacattattttgatagtcaaggatcttggtacagtgttacctcagatagaaatctaacaccaggtcttaattcttatatcaaaagaaatcaattccctccgttgccaatgattaaagaactgctatgggaattttaccaccttgaccatcctccacttttctcaaccaaaattattagtgacttaagtatttttataaaagacagagctactgcagtagaaaggacatgctgggatgcagtattcgagcctaatgttctgggatataatccacctcacaaattcagtaccaaacgtgtaccggaacaatttttagagcaagaaaacttttctattgagaatgttctttcctacgcgcaaaaactcgagtatctactaccacaatatcggaatttttc-tttctcattgaaagagaaagagttgaatgtaggtagaactttcggaaaattgccttatccgactcgcaatgttcaaacactttgtgaagctctgttagctgatggtcttgctaaagcatttcctagcaatatgatggtagttacggaacgtgaacaaaaagaaagcttattgcatcaagcatcatggcaccacacaagtgatgatttcggtgagcatgccacagttagagggagtagctttgtaactgatttagagaaatacaatcttgcatttaggtatgagtttacagcaccttttatagaatattgcaaccgttgctatggtgttaagaatg-tttttaattggatgcattatacaatcccacagtgttatatgcatgtcagtgattattataatccaccgcataacctcacactggaaaatcgaaacaacccccctgaagggcctagttcatacaggggtcatatgggagggattgaaggactgcaacaaaaactctggacaagtatttcatgtgctcaaatttctttagttgaaattaagactggttttaagttgcgctcagctgtgatgggtgacaatcagtgcattaccgttttatcagtcttccccttagagactgatgcagacgagcaggaacagagcgccgaggacaatgcagcgagggtggccgccagcctagcaaaagttacaagtgcctgtggaatctttttaaaacctgatgaaacatttgtacattcaggttttatctattttggaaaaaaacaatatttgaatggggtccaattgcctcagtcccttaaaacggctacaagaatggcaccattgtctgatgcaatttttgatgatcttcaagggaccctggctagtataggtactgcttttgagcgatccatctctgagacacgacatatctttccttgcagaataaccgcagctttccatacgttcttttcggtgagaatcttgcaatatcatcacctcggatttaataaaggttttgaccttggacagttaacactcggcaaacctctggatttcggaacaatatcattggcactagcggtaccgcaggtgcttggagggttatccttcttgaatcctgagaaatg--tttctaccggaatctaggagatccagttacctcaggtttattccagttaaaaacttatctccgaatgattgagatggatgatttattcttacctttaattgcgaagaaccctgggaactgcactgccattgactttgtgctaaatcctagcggattaaatgttcctgggtcgcaagacttaacttcatttctgcgccagattgtacgtaggactatcaccctaagtgcgaaaaacaaacttattaataccttatttcatgcatcagctgacttcgaagacgaaatggtttgtaagtggctcttatcatcaactcctgttatgagtcgtttcgcagccgatatattttcacgcacgccgagcgggaagcgattgcaaattctaggatacttggaaggaacacgcacattattagcctctaagatcatcaacaataatacagagacgccggttttggacagactgaggaagataacattgcaaaggtggagtctatgg-tttagttatcttgatcattgtgataatatcctggcggaggctttaacccaaataacttgcacagttgatttagcacagatcctgagggaatattcatgggcacatattttagaggggagacctcttattggagccacactcccatgtatgattgagcaattcaaagtggtttggctgaaaccctacgaacaatgtccgcagtgttcaaatgccaagcaacctggtgggaaaccattcgtgtcagtagcagtcaagaaacatattgttagtgcatggccaaatgcatcccgaataagctggactatcggggatggaatcccatacattggatc-aaggacagaagataagatagggcaacctgctattaaaccaaaatgtccttccgcagccttaagagaggccattgaattggcgtcccgtttaacatgggtaactcaaggcagttcgaacagtgacttgctaataaaaccatttttggaagcacgagtaaatttaagtgttcaagaaatacttcaaatgaccccttcacattactcgggaaatattgttcataggtacaacgatcaatacagtcctcattctttcatggccaatcgtatgagtaactcagcaacgcgattgattgtttctacaaacactttaggtgagttttcaggaggtggccaatcggcacgcgacagcaatattattttccagaatgttataaattatgcagttgcactgttcgatattaaatttagaaacactgaggctacagatatccagtataatcgtgctcaccttcatctaactaagtgttgcacccgggaggtaccagctcagtatttaacatacacatctacattggatttagatttaacaagataccgagaaaatgaattgatttatgacaataatcctctaaaaggaggactcaattgcaatatctcatttgataacccatttttccaaggcaaacagctgaacattatagaagatgaccttattcgactgcctcacttatctggatgggagctagctaagaccatcatgcaatcaattatttcagatagcaataattcgtctacagacccaattagcagtggagaaacaagatcattcactacccatttcttaacttatcccaagataggacttctgta-cagttttggggcctttgtaagttattatcttggcaatacaattcttcggactaagaaattaacacttgacaattttttatattacttaac-tacccaaattcataatctaccacatcgctcattgcgaatacttaagccaacattcaaacatgcaagcgttatgtcacgattaatgagtattgatccccatttttctatttacataggcggtgctgcaggtgacagaggactctcagatgcggccaggttatttttgagaacgtccatttcatcttttcttacatttgtaaaggaatggataattaatcgcggaacaattgtccctttatggatagtatatccattagagggtcaaaatccaacacctgttaataatttcctccatcagatcgtagaactgctggtgcatgattcatcaagacaccaggcttttaaaactaccataaatgatcatgtacatcctcacgacaatcttgtttacacatgtaagagtacagccagcaatttcttccatgcgtcattggcgtactggaggagcaggcacagaaacagcaaccgaaaagacttgacaagaaactcttcaactggatcaagcacaaacaacagtgatggtcatattaagagaagtcaagaacaaaccaccagagatccacatgatggcactgaacggagtctagtcctgcaaatgagccatgaaataaaaagaacgacaattccacaagagaacacgcaccagggtccgtcgttccagtcatttctaagtgactctgcttgcggtacagcaaacccaaaactaaatttcgatagatcgagacacaatgtgaaatctcaggatcataactcagcatccaagagggaaggtcatcaaataatctcacatcgtctagtcctacctttctttacattatctcaagggacacgccaattaacgtcatccaatgagtcacaaacccaagatgagatatcaaagtacttacggcaattgagatccgtcattgataccacagtttattgtaggtttaccggtatagtctcgtccatgcattacaaacttgatgaggtcctttgggaaatagagaattttaagtcggctgtgacgctggcagagggagaaggtgctggtgccttactattgattcagaaataccaagttaagaccttatttttcaacacgctagctactgagtccagtatagagtcagaaatagtatcaggaatgactactcctaggatgcttctacctgttatgtcaaaattccataatgaccaaattgagattattcttaacaactcagcaagccaaataacagacataacaaatcctacttggtttaaagaccaaagagcaaggctacctaggcaagtcgaggttataaccatggatgcagagacgacagagaatataaacagatcgaaattgtacgaagctgtacataaattgatcttacaccatgttgatcccagcgtattgaaagcagtggtccttaaagtctttctaagtgataccgagggtatgttatggctaaatgataatctagccccgttttttgccactgggtatttaattaagccaataacgtcaagtgccaggtctagtgagtggtatctttgtctgacgaacttcttatcaactacacgtaagatgccacaccaaaaccatctcagttgtaagcaggtaatacttacggcattgcaactgcaaattcaacggagcccatactggctaagtcatttaactcagtatgctgactgcgatttacatttaagctatatccgccttggttttccatcattagagaaagtactataccacaggtataaccttgtcgattcaaaaagaggtccactagtctctgtcactcagcacttagcacatcttagggcagagattcgagaattgaccaatgattataatcaacagcgacaaagtcggactcaaacatatcactttattcgtactgcaaaaggacgaatcacaaaactagtcaatgattacttaaaattctttcttattgtacaagcattaaaacataatgggacatggcaagctgagtttaagaaattaccagagttgattagtgtgtgcaataggttctatcatattagagattgtaattgtgaagaacgtttcttagttcaaaccttatatttacatagaatgcaggattctgaagttaag-cttatcgaaaggctgacagggcttctgagtttatttccagatggtctctacaggttcgattgaataaccgtgcatagtattttgatacttgtaaaggttggttatcaacatacagattat-aaaaaactcataaattgctctcatacatcatcttgatctga-tttcaataaataacta-tttagataacgaaaggagtccttacattatacactatatttggcctctctccctgcgtgataatc-aaaaaattcacaatacagcatgtgtgacatattactgctgcaatgagtctaacgcaacataataaactccgcactctttataattaagc-tttaacgataggtctgggctcatattgttattgatatagtaatgttgtatcaatatcttgccagatggaatag-tgc-tttggttgat-aacacgacttcttaaaacaaaactgatctt-taagattaag-ttttttataattgtcattgctttaatttgtcgattt--aaaaatggtgatagccttaatctttgtgtaaaataagagattaggtgtaataactttaacatttttgtctagtaagctactattccattcagaatgataaaattaaaagaaaagacatgactgtaaaatcagaaataccttctttacaatatagcagactagataataatcttcgtgttaatgataattaaggcattgaccacgctcatcagaaggctcactagaataaacgttgcaaaaaggatccctggaaaaatggtcgcacacaaaaatttaaaaataaatctatttc-ttcttttttgtgtgt---
 </sequence>
 	</alignment>
-	
-	
+
+
 
 	<!-- The unique patterns from 1 to end                                       -->
 	<!-- npatterns=249                                                           -->
 	<patterns id="patterns" from="1" strip="false">
 		<alignment idref="alignment"/>
 	</patterns>
-	
+
 
 	<!-- A prior assumption that the population size has grown exponentially     -->
 	<!-- throughout the time spanned by the genealogy.                           -->
@@ -833,14 +701,14 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<parameter id="exponential.growthRate" value="0.0"/>
 		</growthRate>
 	</exponentialGrowth>
-	
+
 
 	<!-- Generate a random starting tree under the coalescent process            -->
 	<coalescentSimulator id="startingTree">
 		<taxa idref="taxa"/>
 		<exponentialGrowth idref="exponential"/>
 	</coalescentSimulator>
-	
+
 
 	<!-- Generate a tree model                                                   -->
 	<treeModel id="treeModel">
@@ -865,7 +733,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 	<tmrcaStatistic id="age(root)" absolute="true">
 		<treeModel idref="treeModel"/>
 	</tmrcaStatistic>
-	
+
 
 	<!-- Generate a coalescent likelihood                                        -->
 	<coalescentLikelihood id="coalescent">
@@ -876,7 +744,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<treeModel idref="treeModel"/>
 		</populationTree>
 	</coalescentLikelihood>
-	
+
 
 	<!-- The uncorrelated relaxed clock (Drummond, Ho, Phillips & Rambaut (2006) PLoS Biology 4, e88 )-->
 	<discretizedBranchRates id="branchRates">
@@ -895,22 +763,22 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<parameter id="branchRates.categories"/>
 		</rateCategories>
 	</discretizedBranchRates>
-	
+
 	<rateStatistic id="meanRate" name="meanRate" mode="mean" internal="true" external="true">
 		<treeModel idref="treeModel"/>
 		<discretizedBranchRates idref="branchRates"/>
 	</rateStatistic>
-	
+
 	<rateStatistic id="coefficientOfVariation" name="coefficientOfVariation" mode="coefficientOfVariation" internal="true" external="true">
 		<treeModel idref="treeModel"/>
 		<discretizedBranchRates idref="branchRates"/>
 	</rateStatistic>
-	
+
 	<rateCovarianceStatistic id="covariance" name="covariance">
 		<treeModel idref="treeModel"/>
 		<discretizedBranchRates idref="branchRates"/>
 	</rateCovarianceStatistic>
-	
+
 
 	<!-- The HKY substitution model (Hasegawa, Kishino & Yano, 1985)             -->
 	<HKYModel id="hky">
@@ -940,7 +808,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 	<statistic id="mu" name="mu">
 		<siteModel idref="siteModel"/>
 	</statistic>
-	
+
 
 	<!-- Likelihood for tree given sequence data                                 -->
 	<treeDataLikelihood id="treeLikelihood" useAmbiguities="false">
@@ -951,7 +819,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 		<treeModel idref="treeModel"/>
 		<discretizedBranchRates idref="branchRates"/>
 	</treeDataLikelihood>
-	
+
 
 	<!-- Define operators                                                        -->
 	<operators id="operators" optimizationSchedule="default">
@@ -1003,10 +871,10 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<parameter idref="exponential.growthRate"/>
 		</randomWalkOperator>
 	</operators>
-	
+
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="50000000" autoOptimize="true">
+	<mcmc id="mcmc" chainLength="100000000" autoOptimize="true">
 		<joint id="joint">
 			<prior id="prior">
 				<exponentialPrior mean="0.5" offset="0.0">
@@ -1025,8 +893,8 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 					<parameter idref="exponential.growthRate"/>
 				</laplacePrior>
 				<coalescentLikelihood idref="coalescent"/>
-				
-				
+
+
 				<discretizedBranchRates idref="branchRates"/>
 			</prior>
 			<likelihood id="likelihood">
@@ -1055,7 +923,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="5000" fileName="2012-2014.5_large2014_max200_ucld_iso.log" overwrite="false">
+		<log id="fileLog" logEvery="10000" fileName="2012-2014.5_large2014_max200_iso.log" overwrite="false">
 			<joint idref="joint"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -1075,11 +943,11 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<treeDataLikelihood idref="treeLikelihood"/>
 			<discretizedBranchRates idref="branchRates"/>
 			<coalescentLikelihood idref="coalescent"/>
-			
+
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="5000" nexusFormat="true" fileName="2012-2014.5_large2014_max200_ucld_iso.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="10000" nexusFormat="true" fileName="2012-2014.5_large2014_max200_iso.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<discretizedBranchRates idref="branchRates"/>
@@ -1087,17 +955,17 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<joint idref="joint"/>
 		</logTree>
 	</mcmc>
-	
+
 
 	<!-- START Marginal Likelihood Estimator                                     -->
 
 	<!-- A working prior for the exponential growth model.                       -->
 	<exponentialGrowth id="exponentialReference" units="years">
 		<populationSize>
-			<parameter id="exponentialReference.popSize" parameterColumn="exponential.popSize" fileName="2012-2014.5_large2014_max200_ucld_iso.log" burnin="5000000"/>
+			<parameter id="exponentialReference.popSize" parameterColumn="exponential.popSize" fileName="2012-2014.5_large2014_max200_iso.log" burnin="5000000"/>
 		</populationSize>
 		<growthRate>
-			<parameter id="exponentialReference.growthRate" parameterColumn="exponential.growthRate" fileName="2012-2014.5_large2014_max200_ucld_iso.log" burnin="5000000"/>
+			<parameter id="exponentialReference.growthRate" parameterColumn="exponential.growthRate" fileName="2012-2014.5_large2014_max200_iso.log" burnin="5000000"/>
 		</growthRate>
 	</exponentialGrowth>
 
@@ -1122,33 +990,33 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			</source>
 			<destination>
 				<workingPrior>
-					<logTransformedNormalReferencePrior fileName="2012-2014.5_large2014_max200_ucld_iso.log" parameterColumn="alpha" burnin="5000000">
+					<logTransformedNormalReferencePrior fileName="2012-2014.5_large2014_max200_iso.log" parameterColumn="alpha" burnin="5000000">
 						<parameter idref="alpha"/>
 					</logTransformedNormalReferencePrior>
 					<discretizedBranchRates idref="branchRates"/>
-					<!--logTransformedNormalReferencePrior fileName="2012-2014.5_large2014_max200_ucld_iso.log" parameterColumn="ucld.mean" burnin="5000000">
+					<!--logTransformedNormalReferencePrior fileName="2012-2014.5_large2014_max200_iso.log" parameterColumn="ucld.mean" burnin="5000000">
 						<parameter idref="ucld.mean"/>
 					</logTransformedNormalReferencePrior-->
-					<logTransformedNormalReferencePrior fileName="2012-2014.5_large2014_max200_ucld_iso.log" parameterColumn="ucld.stdev" burnin="5000000">
+					<logTransformedNormalReferencePrior fileName="2012-2014.5_large2014_max200_iso.log" parameterColumn="ucld.stdev" burnin="5000000">
 						<parameter idref="ucld.stdev"/>
 					</logTransformedNormalReferencePrior>
-					<logTransformedNormalReferencePrior fileName="2012-2014.5_large2014_max200_ucld_iso.log" parameterColumn="exponential.popSize" burnin="5000000">
+					<logTransformedNormalReferencePrior fileName="2012-2014.5_large2014_max200_iso.log" parameterColumn="exponential.popSize" burnin="5000000">
 						<parameter idref="exponential.popSize"/>
 					</logTransformedNormalReferencePrior>
-					<normalReferencePrior fileName="2012-2014.5_large2014_max200_ucld_iso.log" parameterColumn="exponential.growthRate" burnin="5000000">
+					<normalReferencePrior fileName="2012-2014.5_large2014_max200_iso.log" parameterColumn="exponential.growthRate" burnin="5000000">
 						<parameter idref="exponential.growthRate"/>
 					</normalReferencePrior>
 					<coalescentLikelihood idref="coalescentReference"/>
 				</workingPrior>
 			</destination>
 		</pathLikelihood>
-		<log id="MLELog" logEvery="500" fileName="2012-2014.5_large2014_max200_ucld_iso.mle.log">
+		<log id="MLELog" logEvery="500" fileName="2012-2014.5_large2014_max200_iso.mle.log">
 			<pathLikelihood idref="pathLikelihood"/>
 		</log>
 	</marginalLikelihoodEstimator>
 
 	<!-- Generalized stepping-stone sampling estimator from collected samples    -->
-	<generalizedSteppingStoneSamplingAnalysis fileName="2012-2014.5_large2014_max200_ucld_iso.mle.log" resultsFileName="2012-2014.5_large2014_max200_ucld_iso.mle.result.log">
+	<generalizedSteppingStoneSamplingAnalysis fileName="2012-2014.5_large2014_max200_iso.mle.log" resultsFileName="2012-2014.5_large2014_max200_iso.mle.result.log">
 		<sourceColumn name="pathLikelihood.source"/>
 		<destinationColumn name="pathLikelihood.destination"/>
 		<thetaColumn name="pathLikelihood.theta"/>
@@ -1161,5 +1029,5 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<mcmc idref="mcmc"/>
 		</property>
 	</report>
-	
+
 </beast>

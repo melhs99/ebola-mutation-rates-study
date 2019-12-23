@@ -7,194 +7,134 @@
 <!--       David Geffen School of Medicine, University of California, Los Angeles-->
 <!--       http://beast.community/                                           -->
 <beast version="1.10.4">
-	
+
 
 	<!-- The list of taxa to be analysed (can also include dates/ages).          -->
 	<!-- ntax=50                                                                 -->
 	<taxa id="taxa">
 	  <taxon id="KM034550|NA|Sierra_Leone|2014_05_25@2014.45292139554">
-<date value="2014.45292139554" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034549|NA|Sierra_Leone|2014_05_25@2014.45292139554">
-<date value="2014.45292139554" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034551|NA|Sierra_Leone|2014_05_26@2014.45565363598">
-<date value="2014.45565363598" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034552|NA|Sierra_Leone|2014_05_26@2014.45565363598">
-<date value="2014.45565363598" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233035|NA|Sierra_Leone|2014_06_02@2014.46700294241">
-<date value="2014.46700294241" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233036|NA|Sierra_Leone|2014_06_02@2014.46700294241">
-<date value="2014.46700294241" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233037|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233038|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233039|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233040|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233041|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233042|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233043|NA|Sierra_Leone|2014_06_03@2014.46973518285">
-<date value="2014.46973518285" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233044|NA|Sierra_Leone|2014_06_04@2014.47246742329">
-<date value="2014.47246742329" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233045|NA|Sierra_Leone|2014_06_04@2014.47246742329">
-<date value="2014.47246742329" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233046|NA|Sierra_Leone|2014_06_06@2014.47793190416">
-<date value="2014.47793190416" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233047|NA|Sierra_Leone|2014_06_08@2014.48339638504">
-<date value="2014.48339638504" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233048|NA|Sierra_Leone|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817227|NA|Sierra_Leone|2014_06_13@2014.49705758722">
-<date value="2014.49705758722" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KR817228|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034553|NA|Sierra_Leone|2014_05_27@2014.45838587642">
-<date value="2014.45838587642" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034554|NA|Sierra_Leone|2014_05_27@2014.45838587642">
-<date value="2014.45838587642" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034555|NA|Sierra_Leone|2014_06_06@2014.47793190416">
-<date value="2014.47793190416" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034556|NA|Sierra_Leone|2014_05_26@2014.45565363598">
-<date value="2014.45565363598" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034557|NA|Sierra_Leone|2014_05_27@2014.45838587642">
-<date value="2014.45838587642" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034558|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034559|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034560|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034561|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034562|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM034563|NA|Sierra_Leone|2014_05_28@2014.46111811686">
-<date value="2014.46111811686" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233049|NA|Sierra_Leone|2014_05_31@2014.46931483817">
-<date value="2014.46931483817" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233050|NA|Sierra_Leone|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233051|NA|Sierra_Leone|2014_06_11@2014.49159310635">
-<date value="2014.49159310635" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233052|NA|Sierra_Leone|2014_06_13@2014.49705758722">
-<date value="2014.49705758722" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233053|NA|Sierra_Leone|2014_06_05@2014.47519966372">
-<date value="2014.47519966372" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233054|NA|Sierra_Leone|2014_06_07@2014.4806641446">
-<date value="2014.4806641446" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233055|NA|Sierra_Leone|2014_06_07@2014.4806641446">
-<date value="2014.4806641446" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233056|NA|Sierra_Leone|2014_06_07@2014.4806641446">
-<date value="2014.4806641446" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233057|NA|Sierra_Leone|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233058|NA|Sierra_Leone|2014_06_10@2014.48886086591">
-<date value="2014.48886086591" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233059|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233060|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233061|NA|Sierra_Leone|2014_06_10@2014.48886086591">
-<date value="2014.48886086591" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233062|NA|Sierra_Leone|2014_06_11@2014.49159310635">
-<date value="2014.49159310635" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233063|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233064|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233065|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233066|NA|Sierra_Leone|2014_06_13@2014.49705758722">
-<date value="2014.49705758722" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233069|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233070|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233071|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233072|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233073|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233074|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233075|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233076|NA|Sierra_Leone|2014_06_14@2014.49978982766">
-<date value="2014.49978982766" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233116|NA|Sierra_Leone|2014_06_04@2014.47246742329">
-<date value="2014.47246742329" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233117|NA|Sierra_Leone|2014_06_09@2014.48612862547">
-<date value="2014.48612862547" direction="forwards" units="years"/>
 </taxon>
 <taxon id="KM233118|NA|Sierra_Leone|2014_06_12@2014.49432534678">
-<date value="2014.49432534678" direction="forwards" units="years"/>
 </taxon>
 	</taxa>
-	
-	
+
+
 
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
 	<!-- ntax=50 nchar=13154                                                     -->
@@ -387,7 +327,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 	<patterns id="patterns" from="1" strip="false">
 		<alignment idref="alignment"/>
 	</patterns>
-	
+
 
 	<!-- A prior assumption that the population size has grown exponentially     -->
 	<!-- throughout the time spanned by the genealogy.                           -->
@@ -399,14 +339,14 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<parameter id="exponential.growthRate" value="0.0"/>
 		</growthRate>
 	</exponentialGrowth>
-	
+
 
 	<!-- Generate a random starting tree under the coalescent process            -->
 	<coalescentSimulator id="startingTree">
 		<taxa idref="taxa"/>
 		<exponentialGrowth idref="exponential"/>
 	</coalescentSimulator>
-	
+
 
 	<!-- Generate a tree model                                                   -->
 	<treeModel id="treeModel">
@@ -431,7 +371,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 	<tmrcaStatistic id="age(root)" absolute="true">
 		<treeModel idref="treeModel"/>
 	</tmrcaStatistic>
-	
+
 
 	<!-- Generate a coalescent likelihood                                        -->
 	<coalescentLikelihood id="coalescent">
@@ -442,7 +382,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<treeModel idref="treeModel"/>
 		</populationTree>
 	</coalescentLikelihood>
-	
+
 
 	<!-- The strict clock (Uniform rates across branches)                        -->
 	<strictClockBranchRates id="branchRates">
@@ -450,12 +390,12 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<parameter id="clock.rate" value="5E-3" lower="0.0"/>
 		</rate>
 	</strictClockBranchRates>
-	
+
 	<rateStatistic id="meanRate" name="meanRate" mode="mean" internal="true" external="true">
 		<treeModel idref="treeModel"/>
 		<strictClockBranchRates idref="branchRates"/>
 	</rateStatistic>
-	
+
 
 	<!-- The HKY substitution model (Hasegawa, Kishino & Yano, 1985)             -->
 	<HKYModel id="hky">
@@ -485,7 +425,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 	<statistic id="mu" name="mu">
 		<siteModel idref="siteModel"/>
 	</statistic>
-	
+
 
 	<!-- Likelihood for tree given sequence data                                 -->
 	<treeDataLikelihood id="treeLikelihood" useAmbiguities="false">
@@ -496,7 +436,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 		<treeModel idref="treeModel"/>
 		<strictClockBranchRates idref="branchRates"/>
 	</treeDataLikelihood>
-	
+
 
 	<!-- Define operators                                                        -->
 	<operators id="operators" optimizationSchedule="default">
@@ -539,10 +479,10 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<parameter idref="exponential.growthRate"/>
 		</randomWalkOperator>
 	</operators>
-	
+
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="50000000" autoOptimize="true">
+	<mcmc id="mcmc" chainLength="100000000" autoOptimize="true">
 		<joint id="joint">
 			<prior id="prior">
 				<exponentialPrior mean="0.5" offset="0.0">
@@ -558,8 +498,8 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 					<parameter idref="exponential.growthRate"/>
 				</laplacePrior>
 				<coalescentLikelihood idref="coalescent"/>
-				
-				
+
+
 				<strictClockBranchRates idref="branchRates"/>
 			</prior>
 			<likelihood id="likelihood">
@@ -588,7 +528,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="5000" fileName="2012-2014.5_sierra_leone_max200_sc_iso.log" overwrite="false">
+		<log id="fileLog" logEvery="10000" fileName="2012-2014.5_sierra_leone_max200_sc_iso.log" overwrite="false">
 			<joint idref="joint"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -605,11 +545,11 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<treeDataLikelihood idref="treeLikelihood"/>
 			<strictClockBranchRates idref="branchRates"/>
 			<coalescentLikelihood idref="coalescent"/>
-			
+
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="5000" nexusFormat="true" fileName="2012-2014.5_sierra_leone_max200_sc_iso.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="10000" nexusFormat="true" fileName="2012-2014.5_sierra_leone_max200_sc_iso.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<strictClockBranchRates idref="branchRates"/>
@@ -617,7 +557,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<joint idref="joint"/>
 		</logTree>
 	</mcmc>
-	
+
 
 	<!-- START Marginal Likelihood Estimator                                     -->
 
@@ -688,5 +628,5 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 			<mcmc idref="mcmc"/>
 		</property>
 	</report>
-	
+
 </beast>
