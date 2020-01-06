@@ -1,0 +1,6 @@
+file_name,lsd_rate,lower95CI,upper95CI,pval
+RAxML_bestTree.2014.5-2015_large2014_max200_tree,1.787e-04,1.000e-10,6.416e-04,0.96
+RAxML_bestTree.2015-2015.5_large2014_max200_tree,5.578e-04,1.000e-10,1.231e-03,1
+RAxML_bestTree.2014.5-2015_sierra_leone_max200_tree,2.325e-04,1.000e-10,7.502e-04,1
+RAxML_bestTree.2015-2015.5_sierra_leone_max200_tree,3.378e-04,1.000e-10,6.820e-04,1
+RAxML_bestTree.2015.5-2016_sierra_leone_max200_tree,9.567e-04,1.000e-10,2.877e-03,1
