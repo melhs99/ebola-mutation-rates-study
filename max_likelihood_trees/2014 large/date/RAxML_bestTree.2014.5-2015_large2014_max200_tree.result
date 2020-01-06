@@ -3,11 +3,11 @@ LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v0.3beta
 
 
 Input files:
-  I                                 Input tree file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/date/RAxML_bestTree.2014-2014.5_tree
-  D                                 Input date file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/date/2014-2014.5_tree.date
+  I                                 Input tree file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/2014 large/date/RAxML_bestTree.2014.5-2015_large2014_max200_tree
+  D                                 Input date file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/2014 large/date/2014.5-2015.date
   P                                  Partition file : No
 Output file:
-  O                                    Output file  : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/date/RAxML_bestTree.2014-2014.5_tree.result
+  O                                    Output file  : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/max_likelihood_trees/2014 large/date/RAxML_bestTree.2014.5-2015_large2014_max200_tree.result
 Parameters:
   C                                With constraints : Yes
   T                        Lower bound for the rate : 1.000e-10
@@ -21,10 +21,9 @@ Parameters:
 
   H to print Help 
   Y to accept or type a letter to change an option (Q = Exit) 
-Tree 1 rate 1.000e-10 , tMRCA -3581115.707133 , objective function 6.256022e-04
-rate 1.000e-10 [1.000e-10 , 1.662e-03] , tMRCA -3581115.707133 [-10243104.056011 , 2014.090183] , objective function 6.256022e-04
+Tree 1 rate 1.787e-04 , tMRCA 1914.671251 , objective function 5.291838e-03
+rate 1.787e-04 [1.000e-10 , 6.416e-04] , tMRCA 1914.671251 [-217489033.553069 , 1990.629408] , objective function 5.291838e-03
 
-The estimated rate reaches the given lower bound. To change the lower bound, use option -t
 
 *********************************************************
-Elapsed time: 1.71 seconds
+Elapsed time: 3.70 seconds
