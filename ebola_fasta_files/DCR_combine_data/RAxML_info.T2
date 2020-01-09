@@ -1,0 +1,105 @@
+
+
+IMPORTANT WARNING: Sequences MK731992|Ebola_virus/H.sapiens_wt/COD/2018/BEN165_MANA3_20|Democratic_Republic_of_the_Congo|2018_08_20@2018.67002942413 and MK088513|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_MAN081|Democratic_Republic_of_the_Congo|2018_08_12@2018.64817150063 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MK731990|Ebola_virus/H.sapiens_wt/COD/2018/BEN164_MANA1_17|Democratic_Republic_of_the_Congo|2018_08_17@2018.66183270282 and MK731988|Ebola_virus/H.sapiens_wt/COD/2018/BEN164_MANA1_13|Democratic_Republic_of_the_Congo|2018_08_13@2018.65090374107 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MK731986|Ebola_virus/H.sapiens_wt/COD/2018/BEN163_MANA2_16|Democratic_Republic_of_the_Congo|2018_08_16@2018.65910046238 and MK088512|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_MAN082|Democratic_Republic_of_the_Congo|2018_08_13@2018.65090374107 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MK088514|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_MAN109|Democratic_Republic_of_the_Congo|2018_08_14@2018.6536359815 and MK731994|Ebola_virus/H.sapiens_wt/COD/2018/BEN167_MANA5_14|Democratic_Republic_of_the_Congo|2018_08_14@2018.6536359815 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MK731993|Ebola_virus/H.sapiens_wt/COD/2018/BEN167_MANA5_11|Democratic_Republic_of_the_Congo|2018_08_11@2018.64543926019 and MK163660|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_BEN167|Democratic_Republic_of_the_Congo|2018_08_11@2018.64543926019 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MK731991|Ebola_virus/H.sapiens_wt/COD/2018/BEN165_MANA3_11|Democratic_Republic_of_the_Congo|2018_08_11@2018.64543926019 and MK163659|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_BEN165|Democratic_Republic_of_the_Congo|2018_08_11@2018.64543926019 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MK731987|Ebola_virus/H.sapiens_wt/COD/2018/BEN164_MANA1_11|Democratic_Republic_of_the_Congo|2018_08_11@2018.64543926019 and MK163658|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_BEN164|Democratic_Republic_of_the_Congo|2018_08_11@2018.64543926019 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MK731984|Ebola_virus/H.sapiens_wt/COD/2018/BEN163_MANA2_11|Democratic_Republic_of_the_Congo|2018_08_11@2018.64543926019 and MK163657|Ebola_virus/H.sapiens_wt/COD/2018/Ituri_BEN163|Democratic_Republic_of_the_Congo|2018_08_11@2018.64543926019 are exactly identical
+
+IMPORTANT WARNING
+Found 8 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file complete_DRC.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 3934 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.57%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 3934
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/Applications/phylo_apps/standard-RAxML-master/raxmlHPC-PTHREADS-AVX -s complete_DRC.fasta -p 12324 -m GTRCAT -n T2 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.319 0.214 0.198 0.269 
+
+Inference[0]: Time 45.625021 CAT-based likelihood -34692.403964, best rearrangement setting 10
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.107647 8.161913 0.564496 0.103853 9.587410 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -39425.616742 tree written to file /Users/sebastianduchene/Downloads/ebola-mutation-rates-study/ebola_fasta_files/DCR_combine_data/RAxML_result.T2
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -39425.616742 .... 
+
+Final GAMMA-based Score of best tree -39425.615496
+
+Program execution info written to /Users/sebastianduchene/Downloads/ebola-mutation-rates-study/ebola_fasta_files/DCR_combine_data/RAxML_info.T2
+Best-scoring ML tree written to: /Users/sebastianduchene/Downloads/ebola-mutation-rates-study/ebola_fasta_files/DCR_combine_data/RAxML_bestTree.T2
+
+Overall execution time: 90.729605 secs or 0.025203 hours or 0.001050 days
+
