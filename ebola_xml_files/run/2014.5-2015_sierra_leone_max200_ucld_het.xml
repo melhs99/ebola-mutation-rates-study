@@ -1412,7 +1412,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="200000000" autoOptimize="true">
+	<mcmc id="mcmc" chainLength="800000000" autoOptimize="true">
 		<joint id="joint">
 			<prior id="prior">
 				<exponentialPrior mean="0.5" offset="0.0">
@@ -1425,7 +1425,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
                                   </ctmcScale>
                                   <treeModel idref="treeModel"/>
                                 </ctmcScalePrior>
-				
+
 				<uniformPrior lower="1e-4" upper="1e-2">
 				  <parameter idref="ucld.mean"/>
 				</uniformPrior>
@@ -1471,7 +1471,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="20000" fileName="2014.5-2015_sierra_leone_max200_ucld_het.log" overwrite="false">
+		<log id="fileLog" logEvery="80000" fileName="2014.5-2015_sierra_leone_max200_ucld_het.log" overwrite="false">
 			<joint idref="joint"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -1495,7 +1495,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="20000" nexusFormat="true" fileName="2014.5-2015_sierra_leone_max200_ucld_het.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="80000" nexusFormat="true" fileName="2014.5-2015_sierra_leone_max200_ucld_het.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<discretizedBranchRates idref="branchRates"/>

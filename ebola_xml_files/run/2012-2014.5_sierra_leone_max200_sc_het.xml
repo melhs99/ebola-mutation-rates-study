@@ -550,7 +550,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="800000000" autoOptimize="true">
+	<mcmc id="mcmc" chainLength="4000000000" autoOptimize="true">
 		<joint id="joint">
 			<prior id="prior">
 				<exponentialPrior mean="0.5" offset="0.0">
@@ -597,7 +597,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="80000" fileName="2012-2014.5_sierra_leone_max200_sc_het.log" overwrite="false">
+		<log id="fileLog" logEvery="400000" fileName="2012-2014.5_sierra_leone_max200_sc_het.log" overwrite="false">
 			<joint idref="joint"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -616,7 +616,7 @@ cggacacacaaaaagaaagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcct-ct
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="80000" nexusFormat="true" fileName="2012-2014.5_sierra_leone_max200_sc_het.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="400000" nexusFormat="true" fileName="2012-2014.5_sierra_leone_max200_sc_het.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<strictClockBranchRates idref="branchRates"/>
