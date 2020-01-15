@@ -7,7 +7,7 @@
 <!--       David Geffen School of Medicine, University of California, Los Angeles-->
 <!--       http://beast.community/                                           -->
 <beast version="1.10.4">
-
+	
 
 	<!-- The list of taxa to be analysed (can also include dates/ages).          -->
 	<!-- ntax=50                                                                 -->
@@ -262,8 +262,8 @@
 <date value="2017.42559899117" direction="forwards" units="years"/>
 </taxon>
 	</taxa>
-
-
+	
+	
 
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
 	<!-- ntax=50 nchar=13154                                                     -->
@@ -519,13 +519,13 @@ a----------------aagaagaatttttaggatcttttgtgtgcgaataactatgaggaagattaataattttcctct
 g----------------a----------------------------------------ggaaaattattaatcttcctctcactgaaatctatatcggaatttaaattgaaattgttactgtaatcacacctggtttgtttcagagccacatcacaaagatagagaacaacctaggtctccgaagggagcaagggcatcagtgtgcccagttgaaaatcccttgtcaacatctaggtcttatcacatcacaagttccacctcagactctgcagggtgatccaacaaccttaatagaaacattattgttaaaggacagcattagttcacagtcaaacaagcaagattgagaattaactttggttttgaacttgaacacttagaggattggagattcaacaaccctaaagcttggggtaaaacattggaaatagttaaaagacaaattgctcggaatcacaaaattccgagtatggattctcgtcctcagaaagtctggatgacaccgagtctcactgaatctgacatggattaccacaagatcttgacggcaggtctgtctgttcaacaggggattgttcggcaaagagtcatcccagtgtatcaagtaaacaatcttgaggaaatttgccaacttatcatacaggcctttgaagcaggtgttgattttcaagagagtgcggacagtttccttctcatgctttgtcttcatcatgcgtaccagggagattacaaacttttcttggaaagtggtgcagtcaagtatttggaagggcacgggttccgttttgaagtcaagaagcgtgatggagtgaagcgccttgaggaattgctgccagcagtatctagtggaaaaaacattaagagaacacttgctgccatgccggaagaggagacaactgaagctaatgccggtcagtttctctcctttgcaagtctattccttccgaaattggtagtaggagaaaaggcttgccttgagaaggttcaaaggcaaattcaagtacatgcagagcaaggactgatacaatatccaacagcttggcaatcagtaggacacatgatggtgattttccgtttgatgcgaacaaattttctgatcaaatttctcctaatacaccaagggatgcacatggttgccgggcatgatgccaacgatgctgtgatttcaaattcagtggctcaagctcgtttttcaggtttattgattgtcaaaacagtacttgatcatatcctacaaaagacagaacgaggagttcgtctccatcctcttgcaaggaccgccaaggttaaaaatgaggtgaactcctttaaggctgcactcagctccctggccaagcatggagagtatgctcctttcgcccgacttttgaacctttctggagtaaataatcttgagcatggtcttttccctcaactatcggcaattgcactcggagtcgccacagcacacgggagcaccctcgcaggagtaaatgttggagaacagtatcaacaactcagagaggctgccactgaggctgagaagcaactccaacaatatgcagagtctcgcgaacttgaccatcttggacttgatgatcaggaaaagaagattcttatgaacttccatcagaaaaagaacgaaatcagcttccagcaaacaaacgctatggtaactctaagaaaagagcgcctggccaagctgacagaagctatcactgctgcgtcactgcccaaaacaagtggacattacgatgatgatgacgacattccctttccaggacccatcaatgatgacgacaatcctggccatcaagatgatgatccgactgactcacaggatacgaccattcccgatgtagtggttgatcccgatgatggaagctacggcgaataccagagttactcggaaaacggcatgaatgcaccagatgacttggtcctatttgatttagacgaggacgacgaggacactaagccagtgcccaatagatcgaccaagggtggacaacagaaaaacagtcaaaagggccagcatacagagggcagacagacacaatccaggccaactcaaaatgtcccaggccctcacagaacaatccaccacgccagtgctccattcacggacaatgacagaagaaatgaaccctccggctcaaccagccctcgcatgctgacaccaattaacgaagaggcggacccactggacgatgccgacgacgagacgtctagccttccgcccttggagtcagatgatgaagaacaggacagggacggaatttccaaccgcacacccactgtcgccccaccggctcccgtatacagagatcaccctgaaaagaaagaactcccgcaagatgagcaacaagatcaggaccacactcaagaggccaggaaccaggacagtgacaacacccagccagaacactcttttgaggagatgtatcgccacattctaagatcacaggggccatttgatgctgttttgtattatcatatgatgaaggatgaacctgtagttttcagcaccagtgatggcaaagagtacacgtatccagactcccttgaagaggaatatccaccatggctcactgaaaaagaggctatgaatgaagagaatagatttgttacattggatggtcaacaattttattggccggtaatgaatcacaagaataaattcatggcaatcctgcaacatcatcagtgaatgagcatggaacaatgggatgatttaaccgacaaatagctaacattatgtagtcaaggaacgaaaacaggaggaatttttgatgtctaaggtgtgaattattatcacaataaaagtgattcttatttttgaatttaaagctagcttattattactagccgtttttcaaagttcaatttgagtcttaatgcaaataggcgttaagccacagttatagccataattgtaactcaatatcctaactagcgatttatctgaattaaattacattatgcttttataacttacctactagcctgcccaacatttacatgatcgttttataattaagaaaaaacgaatgatgaagattaaaaccttcatcatccttacgtcaattgaattctctagcattcgaagcttattgtcttcaatgtaaaagaaaagctggtctaacaagatgacaactagaacaaagggcaggggccatactgcggccacgactcaaaacgacagaatgccaggccctgagctttcgggctggatctctgagcagctaatgaccggaagaattcctgtaagcgaaatcttctgtgatattgagaacaatccaggattatgctacgtatcccaaatgcaacaaacgaagccaaacccgaagacgcgcaacagtcaaacccaaacggacccaatttgcaatcatagttttgaggaggtagtacaaacattggcttcattggctactgttgtgcaacaacaaaccatcgcatcagaatcattagaacaacgcattacgagtcttgagaatggtctaaagccagtttatgatatggcaaaaacaatctcctcattgaacagggtttgtgctgagatggttgcaaaatatgatcttctggtgatgacaaccggtcgggcaacagcaaccgctgcagcaactgaggcttattgggccgaacatggtcaaccaccacctggaccatcactttatgaagaaagtgcgattcggggtaagattgaatctagagatgagaccgtccctcaaagtgttagggaggcattcaacaatctagacagtaccacttcactaactgaggaaaattttgggaaacctgacatttcggcaaaggatttgagaaacattatgtatgatcacttgcctggttttggaactgctttccaccaattagtacaagtgatttgtaaattgggaaaagatagcaactcattggacatcattcatgctgagttccaggccagcctggctgaaggagactctcctcaatgtgccctaattcaaattacaaaaagagttccaatcttccaagatgctgctccacctgtcatccacatccgctctcgaggtgacattccccgagcttgccagaaaagcttgcgtccagtcccaccatcgcccaagattgatcgaggttgggtatgtgtttttcagcttcaagatggtaaaacacttggactcaaaatttgagccaatctcccttccctccgaaagaggcgactaatagcagaggcttcaactgctgaactataggatacgttacattaatgatacactggtgagtatcagccctggataatataagtcaattaaacgaccaagataaaattgctcatatctcgctagcagcttaaagcataaatgtaatagaagctatatctctgacagtattataattgattgttattaagtaacccaaaccaaaagtgatgaagattaagaaaaacctacctcgactgagagagtgttttttcattaatcttcatcttgtaaacgttgagcaaaattgttaaaaatatgaggcgggttatattgcctactgctcctcctgaatatatggaggccatataccctgtcaggtcaaattcaacaattgctagaggtggcaacagcaatacaggcttcctgacaccggagtcagtcaatggggacactccatcgaatccactcaggccaattgccgatgacaccatcgaccatgccagccacacaccaggcagtgtgtcatcagcattcatccttgaagctatggtgaatgtcatatcgggccccaaagtgctaatgaagcaaattccaatttggcttcctctaggtgtcgctgatcaaaagacctacagctttgactcaactacggccgccatcatgcttgcttcatatactattacccatttcggcaaggcaaccaatccacttgtcagagtcaatcggctgggtcctggaatcccggatcaccccctcagactcctgcgaattggaaaccaggctttcctccaggagttcgttcttccgccagtccaactaccccagtatttcacctttgatttgacagcactcaaactgatcacccaaccactgcctgctgcaacatggaccgatgacgctccaacaggatcaaatggagcgttgcgtccaggaatttcatttcatccaaaacttcgccccattcttttacccaacaaaagtgggaagaaggggaacagtgccgatctaacatctccggagaaaatccaagcaataatgacttcactccaggactttaagatcgttccaattgatccagccaaaaatatcatgggaatcgaagtgccagaaactctggtccacaagctgaccggtaagaaggtgaattctaaagatggacaaccaatcatccctgttcttttgccaaagtacattgggttggacccggtgtctccaggagacctcaccatggtaatcacacaggattgtgacacgtgtcactctcctgcaagtcttccagctgtgattgagaagtaattgcaataattgactcagatccagttttacagaatcttctcagggatagtgataacatctattcagtaatccgtccattagaggagatacttttaattgatcaatatactaaaggtgctttacaccattgtcttttttctctactaaatgtagaacttaacaaaagactcataatatacttgtttttaaaagattgattgatggaagatcataactaataacattacaaataatcctactataatcaatgcggtgattcaaatgttaatctttctcattgcacatactctttgcccttatcctcaaattgactgcatgcttacatctaaggatagccagtgtgacttggattggagatgtggagaaaaaatcgagacccatttctaggttgttcacaatccaagtacagacattgcccttctaattaagaaaaaatcggcgatgaagattaagccgacagtgagcgtaatcttcatctctcttagattatttgttttctagagtaggggtcgtcaggtccttttcaatcgtataaccagaataaacttcactagaaggatattgtggggcaacaacacaatgggtgttacagaaatattgcagttacctcgtgatcgattcaagaggacatcattctttctttgggtaattatccttttccaaagaacattttccattccacttggagtcatccacaatagcacattacaggttagtgatgtcgacaaactagtttgtcgtgacaaactgtcatccacaaatcaattgagatcagttggactgaatctcgaagggaatggagtggcaactgacgtgccatctgcaactaaaagatggggcttcaggtccggtgtcccaccaaaggtggtcaattatgaagctggtgaatgggctgaaaactgctacaatcttgagatcaaaaaacctgacgggagtgagtgtctaccagcagcgccagacgggattcggggcttcccccggtgccggtatgtgcacaaagtatcaggaacgggaccgtgtgccggagactttgccttccacaaagagggtgctttcttcctgtatgatcgacttgcttccacagttatctaccgaggaacgactttcgctgaaggtgttgttgcatttctgatactgccccaagctaagaaggacttcttcagctcacaccccttgagagagccggtcaatgcgacggaggacccgtctagtggctactattctaccacaattagatatcaggctaccggttttggaaccaatgagacagagtacttgttcgaggttgacaatttgacctacgtccaacttgaatcaagattcacaccacagtttctgctccagctgaacgagacaatatatacaagtgggaagaggagcaataccacgggaaaactaatttggaaggtcaaccccgaaattgatacaacaatcggggagtgggccttctgggaaactaaaaaaacctcactagaaaaattcgcagtgaagagttgtctttcacagctgtatcaaacggagccaaaaacatcagtggtcagagtccggcgcgaacttcttccgacccagggaccaacacaacaactgaagaccacaaaatcatggcttcagaaaattcctctgcaatggttcaagtgcacagtcaaggaagggaagctgcagtgtcgcatctgacaacccttgccacaatctccacgagtcctcaacccctcacaaccaagccaggtccggacaacagcacccataatacacccgtgtataaacctgacatctctgaggcaactcaagccgaacaataccaccgcagaacagacaacgacagcacagcctccgacactccccccgccatgaccgcagccggactcccaaaaacagagaacaccaacacgagcaagagcaccgactccccggaccccgccaccacagcaagtccccaaaaccacagcaagaccgctggcaacaacaacactcatcaccaagataccggagaggagagtgccagcagcgggaagttaggcttaattaccaatactattgctggagttgcaggactgatcacaggcgggagaagaactcgaagagaagcaattgtcaatgctcaacccaaatgcaaccctaatttacattactggactactcaggatgaaggtgctgcaatcggactggcctggataccatatttcgggccagcagccgagggaatttacacagaggggctaatgcacaatcaagatggtttaatctgtgggttgagacagctggccaacgagacgactcaagctcttcaactgttcctgagagccacaaccgagttacgcaccttttcaatcctcaaccgtaaggcaattgatttcttgctgcagcgatggggcggcacatgccacattttgggaccggactgctgtatcgaaccacatgattggaccaagaacataacagacaaaattgatcagattattcatgattttgttgataaaacccttccggaccagggggacaatgacaattggtggacaggatggagacaatggataccggcaggtattggagttacaggcgttataattgcagttatcgctttattctgcatatgcaaattcgtcttttagtttttcttcagattgcttcatgacaaagcttagccttaaatcaatgaaaccaggatttaattatatggattacttgaatctaagattacttgacaaatgataatataatacactggagctttaaacatagccaatgtgattccaactcctttaaactcacagttaatcataaacaaggtttgacatcaatttagttatctctttgagaatgataaacttgatgaagattaagaaaaaggtgatccttcgattatctttgatcttcatccttgattctacaatcacgacagttgtctttagtgacaagggaaagaagcctttttattaagttgtaataatcagatctgcgaaccggtagagtttaattgcaacccaacacacataaagcattggtcaaaaagtcaatagaaatttaaacagtgagtggagacaactttcaaatggaagcttcatatgagagaggacgcccacgagctgccagacagcattcaagggatggacacgaccaccatgttcgagcacgatcatcatccagagagaattatcgaggtgagtaccgtcaatcaaggagcgcctcacaagtgcgcgttcctactgtatttcataagaagagagttgaaccattaacagttcctccagcacctaaagacatatgtccgaccttgaaaaaaggatttttgtgtgacagtagtttttgcaaaaaagatcaccagttggagagtttaactgatagggaattactcctactaatcgcccgtaagacttgtggatcagtagaacaacaattaaatataactgcacccaaggactcgcgcttagcaaatccaacggctgatgatttccagcaagaggaaggtccaaaaattaccttgttgacactgatcaagacggcagagcactgggcgagacaagacatcagaaccatagaggattcaaaattaagagcattgttgactctatgtgctgtgatgacgaggaaattctcaaaatcccagctgagtcttttatgtgagacacacctaaggcgcgaggggcttgggcaagatcaggcagaacccgttctcgaagtatatcaacgattacacagtgataaaggaggcagttttgaagctgcactatggcaacaatgggaccgacaatccctaattatgtttatcactgcattcttgaatatcgctctccagttaccgtgtgaaagttctgctgtcgttgtttcagggttaagaacattggttcctcaatcagacaatgaggaagcttcaaccaacccggggacatgctcatggtctgatgagggtaccccttaataaggctgactaaaacactatataaccttctacttgatcacaatactccgtatacccatcatcatatatttaatcaaaacgatgtcctttaaaacctattcagcactataatcactctcgtttcaaatcaataagatgtgcatgattgccctaatatatgaagaggtatgatacaaccctaacagtgaccaaagaaaatcataatctcgtatcgctcgtaatataacctgccaagcatacctcttgcacaaagtgattcttgtacacaaataatgttttactctacaggaggtagcaacgatccatcccatcaaaaaataagtattttatgacttactaatgatctcttaaaatattaagaaaaactgacggaacataaattctttctgcttcaagttgtggaggaggtgtttggtattggctattgttatattacaatcaataacaagcttgtaaaaatattgttcttgttttaagaggtagattgtgaccggaaatgctaaactaatgatgaagattaatgcggaggtctgataagaataaaccttattattcagattaggccccaagaggcattcttcatctccttttagcaaagtactatttcagggtagtccaattagtgacacatcttttagctgtatatcagtcgcccctgagatacgctacaaaagtgtctctaagctaaattggtctgtacacatctcatacattgtattaggggcaataatctctaattgaacttagccgtttaaaatttagtgcataaatctgggctaactccaccaggtcaactccattggctgaaaagaatcctacctacaacgaacatcactttgagcgccctcacaattaaaaaataggaacgtcgttccaacaatcgagcgcaaggtttcaaggttgaattgagagtgtctagacaacaaaatatcgatactccagataccaagcaagacctgagaaaaaaccatggctaaagctacgggacgatacaatctaatatcgcccaaaaaggacctggagaaaggggttgtcttaagcgacctctgtaacttcttagttagccaaactattcaggggtggaaggtttattgggctggtattgagtttgatgtgactcacaaaggaatggccctattgcatagactgaaaactaatgactttgcccctgcatggtcaatgacaaggaatctctttcctcatttatttcaaaatccgaattccacaattgaatcaccgctgtgggcattgagagtcatccttgcagcagggatacaggaccagctgattgaccagtctttgattgaacccttagcaggagcccttggtctgatctctgattggctgctaacaactaatactaaccatttcaacatgcgaacacaacgtgtcaaggaacaattgagcctaaaaatgctgtcgttgattcgatcaaatattctcaagtttattaacaaattggatgctctacatgtcgtgaactacaacggattgttgagcagtattgaaattggaactcaaaatcatacaatcatcataactcgaactaacatgggttttctggtggagctccaagaacccgacaaatcggcaatgaaccgcaagaagcctgggccggcaaaattttccctccttcatgagtccacactgaaagcatttacacaaggatcctcgacacgaatgcaaagtttgattcttgaatttaatagctctcttgctatctaattaaggtggaatacttcatattgagctaactcatatatgctgactcaatagttatcttgacatctctgctttcgtaatcagatatataagcataataaataaatactcatatttcttgataatttgtctaaccacagataaatcctcactgtaagccagcttccaagttgacacccttacaaaaaccaggactcagaatccctcaaataagagattctaagacaacatcatagaattgctttattatatgaataagcattttatcaccagaaatcctatatactaaatggttaattgtaactgaactcgcaggtcacatgtgttaggtttcacagattctatatattactaactctatactcgtaattaacattagataagtagattaaga-aaaaagcctgaggaagattaagaaaaactgcttattgggtctttccgtgttttagatgaagcagttgaaattcttcctcttgatattaaatggctacacaacatactcagtacccagacgctaggttatcatcaccaattgtattggaccaatgtgacctagtcactagagcttgcgggttatattcatcatactcccttaatccgcaactacgcaactgtaaactcccgaaacatatctaccgtttaaaatacgatgtaactgttaccaagttcttgagtgatgtaccagtggcgacattgcccatagatttcatagtcccaattcttctcaaggcactgtcaggcaatgggttctgtcctgttgagccgcggtgccaacagttcttagatgaaatcattaagtacacaatgcaagatgctctcttcttgaaatattatctcaaaaatgtgggtgctcaagaagactgtgttgatgaccactttcaagagaaaatcttatcttcaattcagggcaatgaatttttacatcaaatgtttttctggtatgatctggctattttgactcgaaggggtagattaaatcgaggaaactctagatcaacatggtttgttcatgatgatttaatagacatcttaggctatggggactatgttttttggaagatcccaatttcaatgttaccactgaacacacaaggaatcccccatgctgctatggactggtatcaggcatcagtattcaaagaagcggttcaagggcatacacacattgtttctgtttctactgccgacgtcttgataatgtgcaaagatttaattacatgtcgattcaacacaactctaatctcaaaaatagcagagattgaggatccagtttgttctgattatccaaattttaagattgtgtctatgctttaccagagcggagattacttactctccatattagggtctgatgggtataaaattattaagttcctcgaaccattgtgcttggccaaaattcaattatgctcaaagtacaccgaaaggaagggccgattcttaacacaaatgcatttagctgtaaatcacaccctagaagaaattacagaaatgcgtgcactaaagccttcacaggctcaaaagatccgtgaattccatagaacattgataaggctggagatgacgccacaacaactttgtgagctattttccatccaaaaacactgggggcatcctgtgctacatagtgaaacagcaatccaaaaagttaaaaaacatgctacggtgctaaaagcattacgccctatagtgattttcgagacatactgtgtttttaaatatagtattgccaaacattattttgatagtcaaggatcttggtacagtgttacttcagataggaatctaacaccaggccttaattcttatatcaaaagaaatcaattccctccgttgccaatgattaaagaactactatgggaattttaccaccttgaccatcctccacttttctcaaccaaaattattagtgacttaagtatttttataaaagacagagctaccgcagtagaaaggacatgctgggatgcagtattcgagcctaatgttctaggatataatccacctcacaaatttagtactaaacgtgtaccagaacaatttttagagcaagaaaacttttctattgagaatgttctttcctacgcgcaaaaactcgagtatctactaccacaatatcggaacttttctttctcattgaaagaaaaagagttgaatgtaggtagaaccttcggaaaattgccttatccgactcgcaatgttcaaacactttgtgaagctctgttagctgatggtcttgctaaagcatttcctagcaatatgatggtagttacggaacgtgagcaaaaagaaagcttattgcatcaagcatcatggcaccacacaagtgatgattttggtgaacatgccacagttagagggagtagctttgtaactgatttagagaaatacaatcttgcatttagatatgagtttacagcaccttttatagagtattgcaaccgttgctatggtgttaagaatgtttttaattggatgcattatacaatcccacagtgttatatgcatgtcagtgattattataatccaccacataacctcacactggaaaatcgagacaacccccccgaagggcctagttcatacaggggtcatatgggagggattgaaggactgcaacaaaaactctggacaagtatttcatgtgctcaaatttctttagttgaaattaagactggttttaagttacgctcagctgtgatgggtgacaatcagtgcattaccgttttatcagtcttccccttagagactgacgcagacgagcaggaacagagcgccgaagacaatgcagcgagggtggctgccagcctagcaaaagttacaagtgcctgtggaatctttttaaaacctgatgaaacatttgtacattcaggttttatctattttggaaaaaaacaatatttgaatggggtccaattgcctcagtcccttaaaacggctacaagaatggcaccattgtctgatgcaatttttgatgatcttcaagggactctggctagtataggcactgcttttgagcgatccatctctgagacacgacatatctttccttgcaggataaccgcagctttccatacgtttttttcggtgagaatcttgcaatatcatcatctcgggttcaataaaggttttgaccttggacagttaacactcggcaaacctctggatttcggaacaatatcattggcactagcggtaccgcaggtgcttggagggttatccttcttgaatcctgagaaatgtttctaccggaatctaggagatccagttacctcaggcttattccagttaaaaacttatctccgaatgattgagatggatgatttattcctacctttaattgcgaagaaccctgggaactgcactgccattgattttgtgctaaatcctagcggattaaatgtccctgggtcacaagacttaacttcatttctgcgccagattgtacgcaggaccatcaccctaagtgcgaaaaacaaacttattaataccttatttcatgcgtcagctgacttcgaagacgaaatggtttgtaaatggctattatcatcaactcctgttatgagtcgttttgcggccgatatcttttcacgcacgccgagcgggaagcgattgcaaattctaggatacctggaaggaacacgcacattattagcctctaagatcatcaacaataatacagagacaccggttttggacagactgaggaaaataacattgcaaaggtggagtctatggtttagttatcttgatcattgtgataatatcctggcggaggctttaacccaaataacttgcacagttgatttagcacagatcctgagggaatattcatgggctcatattttagagggaagacctcttatcggagccacactcccatgtatgattgagcaattcaaagtgttttggctgaaaccctacgaacaatgtccgcagtgttcaaatgcaaagcaaccaggtgggaaaccattcgtgtcagtggcagtcaaaaaacatattgttagtgcatggccgaacgcatcccgaataagctggactatcggggatggaatcccatacattggatcaaggacagaagataagataggacaacctgctattaaaccaaaatgtccttccgcagccttaagagaggccattgaattggcgtcccgtctaacatgggtaactcaaggcagttcgaacagtgacttgctaataaaaccatttttggaagcacgagtaaatttaagtgttcaagaaatacttcaaatgaccccttcacattactcaggaaatattgttcacaggtacaacgatcaatacagtcctcattctttcatggccaatcgtatgagtaattcagcaacgcgattgattgtttctacaaacactttaggtgagttttcaggaggtggccaatctgcacgcgacagcaatattattttccagaatgttataaattatgcagttgcactgttcgatattaaatttagaaacactgaggctacagacatccaatataatcgtgctcaccttcatctaactaagtgttgcacccgggaagtaccagctcagtatttaacatacacatctacattggatttagatctaacaagataccgagaaaacgaattgatttatgacaataatcctctaaaaggaggactcaattgcaatatctcattcgataacccatttttccaaggtaaacggctgaacattatagaagatgatcttattcgactgcctcacttatctggatgggagctagccaagaccatcatgcaatcaattatttcagatagcaacaattcatctacagacccaattagcagtggagaaacaagatcattcactacccatttcttaacttaccccaagataggacttctgtacagctttggggcctttgtaagttattatcttggcaatacaattcttcggactaagaaattaacacttgacaattttttatattacttaactacccaaattcataatctaccacatcgctcattgcgaatacttaagccaacattcaaacatgcaagcgttatgtcacggttaatgagtattgatcctcatttttctatttacataggcggtgctgcaggtgacagaggactctcagatgcggccaggttattcttgagaacgtctatttcatcttttcttacatttataaaagaatggataattaatcgcggaacaattgtccctttatggatagtatatccgctagagggtcaaaacccaacacctgttaataattttctctatcagatcgtagaactgctggtgcatgattcatcaagacaacaggctttaaaaactaccataagtgatcatgtacatcctcacgacaatcttgtttacacatgtaagagtacagccagcaatttcttccatgcatcattggcgtactggaggagcaggcacaaaaatagcaaccgaaaatacttggcaagagactcttcaactggatcaagcacaaacaacagtgatggtcatattgagagaagtcaagaacaaaccaccagagatccacatgatggcactgaacggaatctagtcctacaaatgagtcatgaaataaaaagagcgacaattccacaagaaaacacgcaccagggtccgtcatttcggtccttcctaagtgactctgcttgtggtacagcaaatccaaaactaaatttcgatcgatcgagacacaatgtgaaatctcaagatcataactcggcatccaagagggaaggtcatcaaataatctcacaccgtctagtcctacctttctttacattatctcaagggacacgccaattaacttcatccaatgagtcacaaacccaagacgagatatcaaagtacttacggcaattgagatccgtcattgataccacggtttattgtaggtttaccggtatagtctcgtctatgcattacaaacttgatgaggtcctttgggaaatagagagttttaagtcggctgttacgctagcagagggagaaggtgctggtgccttactattgattcagaaataccaagttaagaccttatttttcaacacgctagctactgagtccagtatagagtcagaaatagtatcaggaatgactactcctaggatgcttctacctgttatgtcaaaattccataatgaccaaattgagattattcttaacaactcagcaagccaaataacagacataacaaatcctacttggtttaaagaccaaagagcaaggctacctaagcaagtcgaggttataaccatggatgcagagacgacagagaatataaacagatcgaaattgtacgaagctgtatataaattgatcttacaccatattgatcccagcgtattgaaagcagtggtccttaaagtctttctaagtgatactgagggtatgttatggctaaatgataatttagccccgttttttgccactggttatttaattaagccaataacgtcaagtgctagatctagtgagtggtatctttgtctgacgaacttcttatcaactacacgtaagatgccacaccaaaaccatctcagttgtaaacaggtaatacttacggcattgcaactgcaaattcaacggagtccatactggctaagtcatttaactcagtatgctgactgtgatttgcatttaagttatatccgccttggttttccatcattagagaaagtactataccacaggtataacctcgtcgattcaaaaagaggtccactagtctctatctctcagcacttagcacatcttagagcagagattcgagaattaactaatgattataatcaacagcgacaaagtcggactcagacatatcactttattcgtactgcaaaaggacgaatcacaaaactagtcaatgattatttaaaattctttcttattgtgcaagcattaaaacataatgggacatggcaagctgagtttaagaaattaccagagttgattagtgtgtgcaataggttctaccatattagagattgcaattgtgaagaacgtttcttagttcaaaccttatatttacatagaatgcaggattctgaagttaagcttatcgaaaggctgacagggcttctgagtttatttccggatggtctctacaggtttgattgaattaccgtgcatagtatcctgatacttgcaaaggttggttattaacatacagattataaaaaactcataaattgctctcatacatcatattgatctaatttcaataaacaactatttaaataacgaaaggagtccctatattatacactatatttagcctctctccctgcgtgataatcaaaaaattcacaatgcagcatgtgtgacatattactgccgcaatgaatctaacgcaacataatgaactctgcactctttataattaagctttaacgaaaggtctgggctcatattgttattgatataataatgttgtatcaatatcctgtcagatggaatagtgatttggttgataacacgacttcttaaaacaaaattgatctttaagattaagtttt-------t-ataattatcattactttaatttgtcgttttaaaaatggtgatagccttaatctttgtgtaaaataagagattaggtgtaataactttaacatttttgtctagtaagctactatttcatatagaatgataaaattaaaagaaaaggcaggactgtaaaatcagaaataccttctttacaatatagcagactagataataattttcgtgttaatgataattaagacattgaccacgctcatcagaaggcatgccagaataaacgttgcaaaaaggattcctggaaaaatggtcacacacaaaaaagaaga----aatagatttatttttaaatttttgtgt--------g
 </sequence>
 	</alignment>
-
+	
 	<!-- The unique patterns from 1 to end                                       -->
 	<!-- npatterns=249                                                           -->
 	<patterns id="patterns" from="1" strip="false">
 		<alignment idref="alignment"/>
 	</patterns>
-
+	
 
 	<!-- A prior assumption that the population size has grown exponentially     -->
 	<!-- throughout the time spanned by the genealogy.                           -->
@@ -537,14 +537,14 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<parameter id="exponential.growthRate" value="0.0"/>
 		</growthRate>
 	</exponentialGrowth>
-
+	
 
 	<!-- Generate a random starting tree under the coalescent process            -->
 	<coalescentSimulator id="startingTree">
 		<taxa idref="taxa"/>
 		<exponentialGrowth idref="exponential"/>
 	</coalescentSimulator>
-
+	
 
 	<!-- Generate a tree model                                                   -->
 	<treeModel id="treeModel">
@@ -569,7 +569,7 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 	<tmrcaStatistic id="age(root)" absolute="true">
 		<treeModel idref="treeModel"/>
 	</tmrcaStatistic>
-
+	
 
 	<!-- Generate a coalescent likelihood                                        -->
 	<coalescentLikelihood id="coalescent">
@@ -580,7 +580,7 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<treeModel idref="treeModel"/>
 		</populationTree>
 	</coalescentLikelihood>
-
+	
 
 	<!-- The uncorrelated relaxed clock (Drummond, Ho, Phillips & Rambaut (2006) PLoS Biology 4, e88 )-->
 	<discretizedBranchRates id="branchRates">
@@ -599,22 +599,22 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<parameter id="branchRates.categories"/>
 		</rateCategories>
 	</discretizedBranchRates>
-
+	
 	<rateStatistic id="meanRate" name="meanRate" mode="mean" internal="true" external="true">
 		<treeModel idref="treeModel"/>
 		<discretizedBranchRates idref="branchRates"/>
 	</rateStatistic>
-
+	
 	<rateStatistic id="coefficientOfVariation" name="coefficientOfVariation" mode="coefficientOfVariation" internal="true" external="true">
 		<treeModel idref="treeModel"/>
 		<discretizedBranchRates idref="branchRates"/>
 	</rateStatistic>
-
+	
 	<rateCovarianceStatistic id="covariance" name="covariance">
 		<treeModel idref="treeModel"/>
 		<discretizedBranchRates idref="branchRates"/>
 	</rateCovarianceStatistic>
-
+	
 
 	<!-- The HKY substitution model (Hasegawa, Kishino & Yano, 1985)             -->
 	<HKYModel id="hky">
@@ -644,7 +644,7 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 	<statistic id="mu" name="mu">
 		<siteModel idref="siteModel"/>
 	</statistic>
-
+	
 
 	<!-- Likelihood for tree given sequence data                                 -->
 	<treeDataLikelihood id="treeLikelihood" useAmbiguities="false">
@@ -655,7 +655,7 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 		<treeModel idref="treeModel"/>
 		<discretizedBranchRates idref="branchRates"/>
 	</treeDataLikelihood>
-
+	
 
 	<!-- Define operators                                                        -->
 	<operators id="operators" optimizationSchedule="default">
@@ -707,10 +707,10 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<parameter idref="exponential.growthRate"/>
 		</randomWalkOperator>
 	</operators>
-
+	
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="200000000" autoOptimize="true">
+	<mcmc id="mcmc" chainLength="50000000" autoOptimize="true">
 		<joint id="joint">
 			<prior id="prior">
 				<exponentialPrior mean="0.5" offset="0.0">
@@ -729,14 +729,14 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 				</exponentialPrior>
 				<exponentialPrior mean="1e5">
 				  <parameter idref="exponential.popSize"/>
-
-				  </exponentialPrior>
+				
+				  </exponentialPrior>			
 				<laplacePrior mean="0.0" scale="1.0">
 					<parameter idref="exponential.growthRate"/>
 				</laplacePrior>
 				<coalescentLikelihood idref="coalescent"/>
-
-
+				
+				
 				<discretizedBranchRates idref="branchRates"/>
 			</prior>
 			<likelihood id="likelihood">
@@ -765,7 +765,7 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="20000" fileName="2014.5-2015_large2014_max200_pruned_ucld_het.log" overwrite="false">
+		<log id="fileLog" logEvery="5000" fileName="2014.5-2015_large2014_max200_pruned_ucld_het.log" overwrite="false">
 			<joint idref="joint"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -785,11 +785,11 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<treeDataLikelihood idref="treeLikelihood"/>
 			<discretizedBranchRates idref="branchRates"/>
 			<coalescentLikelihood idref="coalescent"/>
-
+			
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="20000" nexusFormat="true" fileName="2014.5-2015_large2014_max200_pruned_ucld_het.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="5000" nexusFormat="true" fileName="2014.5-2015_large2014_max200_pruned_ucld_het.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<discretizedBranchRates idref="branchRates"/>
@@ -797,7 +797,7 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<joint idref="joint"/>
 		</logTree>
 	</mcmc>
-
+	
 
 	<!-- START Marginal Likelihood Estimator                                     -->
 
@@ -871,5 +871,5 @@ g----------------a----------------------------------------ggaaaattattaatcttcctct
 			<mcmc idref="mcmc"/>
 		</property>
 	</report>
-
+	
 </beast>
