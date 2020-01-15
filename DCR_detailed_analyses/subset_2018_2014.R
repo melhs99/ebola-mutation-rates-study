@@ -19,3 +19,18 @@ write.dna(cladeA_2018, file = 'dcr_cladeA_2018.fasta', format = 'fasta', nbcol =
 #Clade B 2018
 cladeB_2018 <- aln[cladeB2018, ]
 write.dna(cladeB_2018, file = 'dcr_cladeB_2018.fasta', format = 'fasta', nbcol = -1, colsep = '')
+
+#All 2014
+all2014 <- aln[c(cladeA2014, cladeB2014), ]
+write.dna(all2014, file = 'dcr_all_2014.fasta', format = 'fasta', nbcol = -1, colsep = '')
+
+#CladeA 2014
+cladeA_2014 <- aln[cladeA2014, ]
+write.dna(cladeA_2014, file = 'dcr_cladeA_2014.fasta', format = 'fasta', nbcol = -1, colsep = '')
+
+#CladeB 2014
+cladeB_2014 <- aln[cladeB2014, ]
+write.dna(cladeB_2014, file = 'dcr_cladeB_2014.fasta', format = 'fasta', nbcol = -1, colsep = '')
+
+
+
