@@ -303,8 +303,9 @@
 					<parameter idref="exponential.growthRate"/>
 				</laplacePrior>
 				<coalescentLikelihood idref="coalescent"/>
-
-
+				<uniformPrior lower="0" upper="3">
+				  <parameter idref="treeModel.rootHeight"/>
+				</uniformPrior>
 				<discretizedBranchRates idref="branchRates"/>
 			</prior>
 			<likelihood id="likelihood">

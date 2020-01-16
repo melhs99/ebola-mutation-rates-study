@@ -147,7 +147,7 @@
 	<!-- throughout the time spanned by the genealogy.                           -->
 	<exponentialGrowth id="exponential" units="years">
 		<populationSize>
-			<parameter id="exponential.popSize" value="1.0" lower="0.0"/>
+			<parameter id="exponential.popSize" value="0.1" lower="0.0"/>
 		</populationSize>
 		<growthRate>
 			<parameter id="exponential.growthRate" value="0.0"/>
@@ -345,16 +345,17 @@
 				</exponentialPrior>
 				<exponentialPrior mean="1e5">
 				  <parameter idref="exponential.popSize"/>
-
-				  </exponentialPrior>
+				</exponentialPrior>
+				<uniformPrior lower="0" upper="3">
+				  <parameter idref="treeModel.rootHeight"/>
+				</uniformPrior>
 				<laplacePrior mean="0.0" scale="1.0">
 					<parameter idref="exponential.growthRate"/>
 				</laplacePrior>
 				<coalescentLikelihood idref="coalescent"/>
-
-
 				<discretizedBranchRates idref="branchRates"/>
 			</prior>
+			
 			<likelihood id="likelihood">
 				<treeDataLikelihood idref="treeLikelihood"/>
 			</likelihood>
