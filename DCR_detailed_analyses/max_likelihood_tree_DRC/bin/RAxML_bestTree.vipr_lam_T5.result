@@ -3,11 +3,11 @@ LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v0.3beta
 
 
 Input files:
-  I                                 Input tree file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/DCR_detailed_analyses/RAxML_bestTree.vipr_lam_T5
-  D                                 Input date file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/DCR_detailed_analyses/RAxML_bestTree.vipr_lam_T5.date
+  I                                 Input tree file : RAxML_bestTree.vipr_lam_T5
+  D                                 Input date file : RAxML_bestTree.vipr_lam_T5.date.random
   P                                  Partition file : No
 Output file:
-  O                                    Output file  : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/DCR_detailed_analyses/RAxML_bestTree.vipr_lam_T5.result
+  O                                    Output file  : RAxML_bestTree.vipr_lam_T5.result
 Parameters:
   C                                With constraints : Yes
   T                        Lower bound for the rate : 1.000e-10
@@ -21,9 +21,9 @@ Parameters:
 
   H to print Help 
   Y to accept or type a letter to change an option (Q = Exit) 
-Tree 1 rate 7.875e-05 , tMRCA 1801.539771 , objective function 4.527496e-02
-rate 7.875e-05 [1.000e-10 , 1.846e-04] , tMRCA 1801.539771 [-178687153.755158 , 1923.335824] , objective function 4.527496e-02
+Tree 1 rate 4.851e-07 , tMRCA -31623.536298 , objective function 5.023056e-02
+rate 4.851e-07 [1.000e-10 , 1.461e-06] , tMRCA -31623.536298 [-208914107.887551 , -8796.657211] , objective function 5.023056e-02
 
 
 *********************************************************
-Elapsed time: 2.08 seconds
+Elapsed time: 2.04 seconds

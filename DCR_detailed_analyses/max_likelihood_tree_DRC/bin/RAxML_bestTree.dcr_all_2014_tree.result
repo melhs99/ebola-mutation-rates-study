@@ -3,11 +3,11 @@ LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v0.3beta
 
 
 Input files:
-  I                                 Input tree file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/DCR_detailed_analyses/RAxML_bestTree.dcr_cladeA_2014_tree
-  D                                 Input date file : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/DCR_detailed_analyses/RAxML_bestTree.dcr_cladeA_2014.date
+  I                                 Input tree file : RAxML_bestTree.dcr_all_2014_tree
+  D                                 Input date file : RAxML_bestTree.dcr_all_2014_tree.date.random
   P                                  Partition file : No
 Output file:
-  O                                    Output file  : /Users/melhs/Documents/GitHub/ebola-mutation-rates-study/DCR_detailed_analyses/RAxML_bestTree.dcr_cladeA_2014_tree.result
+  O                                    Output file  : RAxML_bestTree.dcr_all_2014_tree.result
 Parameters:
   C                                With constraints : Yes
   T                        Lower bound for the rate : 1.000e-10
@@ -21,10 +21,10 @@ Parameters:
 
   H to print Help 
   Y to accept or type a letter to change an option (Q = Exit) 
-Tree 1 rate 1.000e-10 , tMRCA -6706838.242195 , objective function 4.856319e-04
-rate 1.000e-10 [1.000e-10 , 1.658e-03] , tMRCA -6706838.242195 [-16027068.102758 , 2014.464555] , objective function 4.856319e-04
+Tree 1 rate 1.000e-10 , tMRCA -165144279.549389 , objective function 1.177231e-03
+rate 1.000e-10 [1.000e-10 , 8.273e-04] , tMRCA -165144279.549389 [-234579521.287933 , 1998.014036] , objective function 1.177231e-03
 
 The estimated rate reaches the given lower bound. To change the lower bound, use option -t
 
 *********************************************************
-Elapsed time: 0.04 seconds
+Elapsed time: 0.11 seconds
