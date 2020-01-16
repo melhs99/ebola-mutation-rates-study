@@ -586,6 +586,9 @@
                                         </ctmcScale>
                                         <treeModel idref="treeModel"/>
                                 </ctmcScalePrior>
+				<uniformPrior lower="0" upper="3">
+				  <parameter idref="treeModel.rootHeight"/>
+				</uniformPrior>
 				<exponentialPrior mean="1e5">
 				  <parameter idref="exponential.popSize"/>
 				</exponentialPrior>

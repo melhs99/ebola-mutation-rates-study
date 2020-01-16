@@ -137,7 +137,7 @@
 	<!-- throughout the time spanned by the genealogy.                           -->
 	<exponentialGrowth id="exponential" units="years">
 		<populationSize>
-			<parameter id="exponential.popSize" value="1.0" lower="0.0"/>
+			<parameter id="exponential.popSize" value="0.1" lower="0.0"/>
 		</populationSize>
 		<growthRate>
 			<parameter id="exponential.growthRate" value="0.0"/>
@@ -298,6 +298,9 @@
                                         </ctmcScale>
                                         <treeModel idref="treeModel"/>
                                 </ctmcScalePrior>
+				<uniformPrior lower="0" upper="3">
+				  <parameter idref="treeModel.rootHeight"/>
+				</uniformPrior>
 				<exponentialPrior mean="1e5">
 				  <parameter idref="exponential.popSize"/>
 				</exponentialPrior>

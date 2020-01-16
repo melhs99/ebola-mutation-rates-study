@@ -609,7 +609,9 @@
                                   </ctmcScale>
                                   <treeModel idref="treeModel"/>
                                 </ctmcScalePrior>
-
+				<uniformPrior lower="0" upper="3">
+				  <parameter idref="treeModel.rootHeight"/>
+				</uniformPrior>
 				<exponentialPrior mean="0.3333333333333333" offset="0.0">
 					<parameter idref="ucld.stdev"/>
 				</exponentialPrior>
