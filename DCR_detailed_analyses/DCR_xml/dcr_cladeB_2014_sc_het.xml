@@ -276,6 +276,9 @@
 				</laplacePrior>
 				<coalescentLikelihood idref="coalescent"/>				
 				<strictClockBranchRates idref="branchRates"/>
+				<uniformPrior lower="0" upper="3">
+				  <parameter idref="treeModel.rootHeight"/>
+				</uniformPrior>
 			</prior>
 			<likelihood id="likelihood">
 				<treeDataLikelihood idref="treeLikelihood"/>
